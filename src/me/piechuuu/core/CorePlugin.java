@@ -1,6 +1,7 @@
 package me.piechuuu.core;
 import me.piechuuu.core.commands.*;
 import me.piechuuu.core.listener.*;
+import me.piechuuu.core.managers.FileManager;
 import me.piechuuu.core.managers.TpPlayer;
 import me.piechuuu.core.tasks.AutoMessageTask;
 import org.bukkit.Bukkit;
@@ -29,12 +30,14 @@ public class CorePlugin extends JavaPlugin {
 
     public void onEnable() {
         getLogger().info("[BapeHC_Core] uruchamianie core...");
-        getServer().getPluginManager().registerEvents(new AsynPlayerChatListener(), this);
+
+        // rejestruje komendy i listenery
         registerCommands();
         registerListeners();
-        final PluginManager pm = Bukkit.getPluginManager();
-        this.saveDefaultConfig();
-        saveDefaultConfig();
+
+        // tworzy folder "users" i zapisuje "config"
+        FileManager.checkFiles();
+
         new AutoMessageTask(this);
         cmd = inst.getConfig().getStringList("blocked-cmd");
     }
@@ -60,22 +63,19 @@ public class CorePlugin extends JavaPlugin {
         getCommand("kick").setExecutor(new KickCommand());
     }
     private void registerListeners() {
-        Bukkit.getPluginManager().registerEvents(new CaseDropListener(), this);
-        Bukkit.getPluginManager().registerEvents(new CaseKickQuitListener(), this);
-        Bukkit.getPluginManager().registerEvents(new CasePlaceListener(), this);
-        Bukkit.getPluginManager().registerEvents(new InventoryClickListener(), this);
-        getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
-        Bukkit.getPluginManager().registerEvents(new BlockedCmd(), this);
+        PluginManager pm = Bukkit.getPluginManager();
+        pm.registerEvents(new AsynPlayerChatListener(), this);
+        pm.registerEvents(new CaseDropListener(), this);
+        pm.registerEvents(new CaseKickQuitListener(), this);
+        pm.registerEvents(new CasePlaceListener(), this);
+        pm.registerEvents(new InventoryClickListener(), this);
+        pm.registerEvents(new PlayerMoveListener(), this);
+        pm.registerEvents(new BlockedCmd(), this);
     }
     public static CorePlugin getPlugin() {
         return CorePlugin.plugin;
-
     }
     public void onDisable(){
         getLogger().info("[BapeHC_Core] wylaczanie core...");
-    }
-
-    private void regCom() {
-
     }
 }

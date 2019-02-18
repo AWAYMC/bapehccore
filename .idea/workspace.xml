@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53716081-9577-4a2c-8754-47503ea6a758" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/piechuuu/core/managers/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="1408">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding>
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2950#2951#0" expanded="true" />
+                <element signature="e#2990#2991#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +96,9 @@
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/listener/CaseKickQuitListener.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/managers/CaseManager.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/ZamowienieCommand.java" />
-        <option value="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/managers/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" />
       </list>
     </option>
   </component>
@@ -117,7 +108,9 @@
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -149,6 +142,27 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550504787811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550508530492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,7 +229,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11124694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121026896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/data/CaseInv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/PolishItemNames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -445,16 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/files/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -617,23 +611,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="220">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/data/CaseInv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="274">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/files/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/managers/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
           </folding>
         </state>
       </provider>

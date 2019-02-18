@@ -65,7 +65,7 @@ public class GameModeCommand implements CommandExecutor {
                 return false;
             }
         }else{
-            commandSender.sendMessage("§8» §4Blad: §cPoprawne uzycie: §7/gm <nick> <0|1|3>");
+            commandSender.sendMessage("§8» §4Blad: §cPoprawne uzycie: §7/gm <0\1\3> <nick>");
         }
         return false;
     }

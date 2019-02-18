@@ -13,8 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import org.bukkit.Material;
 
-public class ItemBuilder
-{
+public class ItemBuilder {
     private Material mat;
     private int amount;
     private final short data;

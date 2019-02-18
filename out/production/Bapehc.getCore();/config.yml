@@ -1,0 +1,52 @@
+/// Ten Core zostal stworzony przez Piechuuu,Dawidos506 zakaz zmiany authors w plugin.yml ///
+#### CASE ####
+error:
+  already-opening: "&8>> &cOtwierasz juz skrzynke!"
+  klucz: "&8>> &cNie masz klucza do bapecase!\n&8>> &cKup klucz na stronie: &7bapehc.pl/offer"
+gui:
+  name: "&8>> &c&lOtwierasz BAPECASE"
+case:
+  name: "&8>> &c&lBAPECASE &8<<"
+  lore:
+    - ' &cAby otworzyc wymagany jest BAPEKEY! '
+    - ' &cKlucz mozna kupic na www.bapehc.pl/offer '
+key:
+  name: "&8>> &cBAPE&4KEY &8<<"
+  lore:
+    - ' &cKlucz jest do &cBAPE&4CASE '
+    - ' &cKup wiecej na &7www.bapehc.pl/offer '
+casecmd:
+  permission: "bapehc.core.case"
+  permission-message: "&8>> &cNie masz dostepu do tej komendy! &8(&7{PERM}&8)"
+  usage: "&8>> &cUzycie: &7/case <case/key> <gracz/all> <ilosc>"
+  notint: "&8>> &cTo nie jest liczba!"
+  allcase: " &cCaly serwer otrzymal &cBAPE&4CASE &cx &c{ILOSC} "
+  allkey: " &cCaly serwer otrzymal &cBAPE&4KEY &cx &c{ILOSC} "
+  offline: "&8>> &cTen gracz jest offline!"
+  dalescase: "&8>> &7Dales graczowi &c{NICK} &cNEON&fCASE &cx &c{ILOSC}"
+  daleskey: "&8>> &cDales graczowi &c{NICK} &cNEON&fKEY &cx &c{ILOSC}"
+  dostalescase: " &cDostales &cNEON&fCASE &cx &c{ILOSC} "
+  dostaleskey: " &cDostales &cNEON&fKEY &cx &c{ILOSC} "
+place:
+  wylosowano-item: " &cGracz &c{NICK} &cotworzyl &cBAPE&4CASE &ci wylosowal: &c{ITEM} &cx &c{ILOSC} "
+#### AUTOMESSAGE ####
+Messages:
+  - "&cBAPE&4HC &8» &7Nasz serwer moze zagwarantowac ci dobra stabilnosc"
+  - "&cBAPE&4HC &8» &7U nas nigdy nie zabraknie graczy"
+  - "&cBAPE&4HC &8» &7Chcesz zdobyc informacje na temat rang? wpisz &c/pomoc"
+  - "&cIN&4FO &8» &7Moze chcesz zakupic core na swoj serwer minecraft? wiecej pod &c/zamowienie"
+#### BLOCKED COMMAND ####
+blocked-cmd:
+  - 'me'
+  - 'minecraft:me'
+  - 'about'
+  - 'pl'
+  - 'help'
+  - '?'
+  - 'bukkit:pl'
+  - 'bukkit:?'
+  - 'bukkit:about'
+  - 'bukkit:me'
+  - 'bukkit:plugins'
+  - 'bukkit:help'
+message: '&8» &4Blad: &cNie masz dostepu do &7(bapehc.core.access.blocked)'

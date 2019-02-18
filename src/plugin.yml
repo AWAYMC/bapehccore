@@ -1,0 +1,45 @@
+name: BAPEHC_CORE
+version: 0.1
+authors: [Piechuuu,Dawidos506]
+main: me.piechuuu.core.CorePlugin
+website: www.youtube.com/user/piechu1337
+
+commands:
+  fly:
+    description: Mozliwosc latania
+  god:
+    description: Niesmiertelnosc
+  pomoc:
+    description: Informacje na serwerze
+  is:
+    description: takzwany itemshop
+  vip:
+    description: Informacje na temat rangi vip
+  svip:
+    description: Informacje na temat rangi svip
+  helper:
+    description: Jakie mozliwosci ma ranga helper
+  heal:
+    description: leczenie sie poprzez komende
+  mod:
+    description: Jakie mozliwosci ma ranga modertator
+  gm:
+    description: mozliwosc zmiany trybu gry
+  bc:
+    description: Informacja na caly chat
+  chat:
+    description: zarzdzaniem chatem serwerowym
+  case:
+    description: rozdanie case/key na serwer
+  tp:
+    description: teleportacja do danego gracza
+  tpaccept:
+    description: akceptowanie prosby o teleport
+  tpdeny:
+    description: anulowanie prosby o teleport
+  tpa:
+    description: wyslanie prosby o teleport do danego gracza
+  zamowienie:
+    description: zamow autorska paczke lub autorskiego core na twoj serwer minecraft
+  kick:
+    description: wyrzucenie gracza z serwera

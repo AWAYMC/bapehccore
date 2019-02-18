@@ -26,6 +26,7 @@ public class KitCommand implements CommandExecutor, Listener {
             }
             else {
                 Player p = (Player)sender;
+                createKitInv();
                 p.openInventory(kity);
             }
         }

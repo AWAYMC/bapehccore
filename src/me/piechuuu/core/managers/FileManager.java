@@ -1,6 +1,7 @@
 package me.piechuuu.core.managers;
 
 import me.piechuuu.core.CorePlugin;
+import net.dzikoysk.funnyguilds.libs.org.apache.logging.log4j.core.Core;
 import org.bukkit.entity.Player;
 
 import java.io.File;
@@ -10,13 +11,20 @@ public class FileManager {
     public static File users;
 
     public static void checkFiles() {
+        if(!(CorePlugin.getInstance().getDataFolder().exists())) {
+            CorePlugin.getInstance().getDataFolder().mkdir();
+        }
+        if(!(new File(CorePlugin.getInstance().getDataFolder(), "config.yml").exists())) {
+            CorePlugin.getInstance().saveDefaultConfig();
+        }
         createUsersFolder();
-        CorePlugin.getInstance().saveDefaultConfig();
     }
 
     public static void createUsersFolder() {
         users = new File(CorePlugin.getInstance().getDataFolder(), "users");
-        users.mkdir();
+        if(!users.exists()) {
+            users.mkdir();
+        }
     }
 
     public static void createPlayerFile(Player p) {

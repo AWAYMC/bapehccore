@@ -12,6 +12,7 @@ public class PlayerJoinListener implements Listener {
     public void joinEvent(PlayerJoinEvent e) {
         Player p = e.getPlayer();
         FileManager.createPlayerFile(p);
+
     }
 
 }

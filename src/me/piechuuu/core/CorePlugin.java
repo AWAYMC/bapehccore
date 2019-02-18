@@ -83,6 +83,7 @@ public class CorePlugin extends JavaPlugin {
         pm.registerEvents(new InventoryClickListener(), this);
         pm.registerEvents(new PlayerMoveListener(), this);
         pm.registerEvents(new BlockedCmd(), this);
+        pm.registerEvents(new PlayerJoinListener(), this);
     }
     public static CorePlugin getPlugin() {
         return CorePlugin.plugin;

@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="BapeHC_Core">
-    <output-path>$PROJECT_DIR$/out/artifacts/BapeHC_Core</output-path>
+    <output-path>$USER_HOME$/Desktop/Serwer 1.8 do pisania pluginów/plugins</output-path>
     <root id="archive" name="BapeHC_Core.jar">
       <element id="module-output" name="Bapehc.getCore();" />
     </root>

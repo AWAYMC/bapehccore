@@ -71,6 +71,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("zamowienie").setExecutor(new ZamowienieCommand());
         getCommand("kick").setExecutor(new KickCommand());
         getCommand("alert").setExecutor(new AlertCommand());
+        getCommand("kit").setExecutor(new KitCommand());
     }
     private void registerListeners() {
         PluginManager pm = Bukkit.getPluginManager();

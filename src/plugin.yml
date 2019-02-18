@@ -43,3 +43,5 @@ commands:
     description: zamow autorska paczke lub autorskiego core na twoj serwer minecraft
   kick:
     description: wyrzucenie gracza z serwera
+  kit:
+    description: Zestawy

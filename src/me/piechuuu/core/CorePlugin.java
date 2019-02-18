@@ -70,6 +70,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("tp").setExecutor(new TpPlayer());
         getCommand("zamowienie").setExecutor(new ZamowienieCommand());
         getCommand("kick").setExecutor(new KickCommand());
+        getCommand("alert").setExecutor(new AlertCommand());
     }
     private void registerListeners() {
         PluginManager pm = Bukkit.getPluginManager();

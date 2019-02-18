@@ -12,7 +12,7 @@ public class ZamowienieCommand implements CommandExecutor {
         commandSender.sendMessage("§8» §7Witaj znalezles sie tutaj poniewaz potrzebujesz autorskiej/autorskiego paczki/core");
         commandSender.sendMessage("§8» §7co nalezy zrobic? wejdz na temaspeak3: §cts-fajny.pl");
         commandSender.sendMessage("§8» §7Nastepnie crtl+f wpisac bapehc.pl znalezc kanal zamowienie cena do uzgodnienia :)");
-        commandSender.sendMessage("§8» §7Autorami paczki na twoj serwer jest Piechuuu oraz Dawidos506");
+        commandSender.sendMessage("§8» §7Autorami paczki na twoj serwer jest Piechuuu oraz dawidos506");
         commandSender.sendMessage("§8§m----------§8( §cZAMOWIENIE §8)§m----------");
         return false;
     }

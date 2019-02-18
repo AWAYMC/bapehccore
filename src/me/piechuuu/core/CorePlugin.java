@@ -30,13 +30,15 @@ public class CorePlugin extends JavaPlugin {
     public void onEnable() {
         getLogger().info("[BapeHC_Core] uruchamianie core...");
         getServer().getPluginManager().registerEvents(new AsynPlayerChatListener(), this);
+        registerCommands();
+        registerListeners();
         final PluginManager pm = Bukkit.getPluginManager();
         this.saveDefaultConfig();
         saveDefaultConfig();
         new AutoMessageTask(this);
         cmd = inst.getConfig().getStringList("blocked-cmd");
     }
-    private void RegisterCommands() {
+    private void registerCommands() {
         getCommand("case").setExecutor(new CaseCommand());
         getCommand("is").setExecutor(new ItemShopCommand());
         getCommand("pomoc").setExecutor(new HelpWithCommand());
@@ -57,7 +59,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("zamowienie").setExecutor(new ZamowienieCommand());
         getCommand("kick").setExecutor(new KickCommand());
     }
-    private void RegisterListeners() {
+    private void registerListeners() {
         Bukkit.getPluginManager().registerEvents(new CaseDropListener(), this);
         Bukkit.getPluginManager().registerEvents(new CaseKickQuitListener(), this);
         Bukkit.getPluginManager().registerEvents(new CasePlaceListener(), this);

@@ -14,6 +14,9 @@ import java.util.List;
 
 public class CorePlugin extends JavaPlugin {
 
+    // TODO
+    // /helpop
+
     public static CorePlugin instance;
 
     public static CorePlugin getInstance() {

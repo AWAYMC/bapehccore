@@ -18,6 +18,6 @@ public class PlayerJoinListener implements Listener {
         p.sendMessage(ChatUtil.fixColor("&7Witaj na serwerze &cBAPE&4HC.PL"));
         p.sendMessage(ChatUtil.fixColor("&7Znajdujesz sie &cMedium&4HC"));
         p.sendMessage(ChatUtil.fixColor("&7Zyczymy ci milesj gry :)"));
-        TitleAPI.sendFullTitle(p,20,50,20,"§cBAPE&4HC.PL", "§8» §7Wiecej pod §c/pomoc :)");
+        TitleAPI.sendTitle(p,20,50,20,"§cBAPE&4HC.PL", "§8» §7Wiecej pod §c/pomoc :)");
     }
 }

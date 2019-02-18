@@ -47,3 +47,6 @@ commands:
     description: Zestawy
   alert:
     description: wiadomosci na caly chat serwerowy
+  vanish:
+    description: powoduje znikniecie admininstratora
+    aliases: [v]

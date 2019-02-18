@@ -14,7 +14,13 @@ import java.util.List;
 
 public class CorePlugin extends JavaPlugin {
 
-    // TODO
+    // /sethome
+    // /home
+    // /setspawn
+    // /spawn
+    // /alert
+    // /efekty
+    // /msg
     // /helpop
 
     public static CorePlugin instance;

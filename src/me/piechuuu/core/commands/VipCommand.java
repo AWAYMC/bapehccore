@@ -8,7 +8,7 @@ public class VipCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        commandSender.sendMessage("§8» §cCena: §77.23");
+        commandSender.sendMessage("§8» §cCena: §7.23");
         commandSender.sendMessage("§8» §cCzas trwania: §7Edycja");
         commandSender.sendMessage("§8» §cZakup dostepny: §7www.bapehc.pl/offer");
         commandSender.sendMessage("§8» §cMozliwosci:");

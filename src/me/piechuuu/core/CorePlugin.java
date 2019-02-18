@@ -33,10 +33,10 @@ public class CorePlugin extends JavaPlugin {
         final PluginManager pm = Bukkit.getPluginManager();
         this.saveDefaultConfig();
         saveDefaultConfig();
-        Bukkit.getPluginManager().registerEvents(new CaseDropListener(), this);
-        Bukkit.getPluginManager().registerEvents(new CaseKickQuitListener(), this);
-        Bukkit.getPluginManager().registerEvents(new CasePlaceListener(), this);
-        Bukkit.getPluginManager().registerEvents(new InventoryClickListener(), this);
+        new AutoMessageTask(this);
+        cmd = inst.getConfig().getStringList("blocked-cmd");
+    }
+    private void RegisterCommands() {
         getCommand("case").setExecutor(new CaseCommand());
         getCommand("is").setExecutor(new ItemShopCommand());
         getCommand("pomoc").setExecutor(new HelpWithCommand());
@@ -54,12 +54,16 @@ public class CorePlugin extends JavaPlugin {
         getCommand("tpaccept").setExecutor(new TpAcceptCommand());
         getCommand("tpdeny").setExecutor(new TpDenyCommand());
         getCommand("tp").setExecutor(new TpPlayer());
-        getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
-        new AutoMessageTask(this);
         getCommand("zamowienie").setExecutor(new ZamowienieCommand());
         getCommand("kick").setExecutor(new KickCommand());
+    }
+    private void RegisterListeners() {
+        Bukkit.getPluginManager().registerEvents(new CaseDropListener(), this);
+        Bukkit.getPluginManager().registerEvents(new CaseKickQuitListener(), this);
+        Bukkit.getPluginManager().registerEvents(new CasePlaceListener(), this);
+        Bukkit.getPluginManager().registerEvents(new InventoryClickListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
         Bukkit.getPluginManager().registerEvents(new BlockedCmd(), this);
-        cmd = inst.getConfig().getStringList("blocked-cmd");
     }
     public static CorePlugin getPlugin() {
         return CorePlugin.plugin;

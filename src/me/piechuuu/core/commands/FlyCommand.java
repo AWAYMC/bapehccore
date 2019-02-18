@@ -22,7 +22,7 @@ public class FlyCommand implements CommandExecutor {
         if (strings.length == 0) {
             Player p = (Player) commandSender;
             p.setAllowFlight(!p.getAllowFlight());
-            p.sendMessage(CorePlugin.prefix + " §cPomyslnie " + (p.getAllowFlight() ? "wlaczono" : "wylaczono") + "§4latanie");
+            p.sendMessage(CorePlugin.prefix + " §cPomyslnie " + (p.getAllowFlight() ? "wlaczono" : "wylaczono") + " §4latanie");
             return true;
         }
         Player cel = Bukkit.getPlayerExact(strings[0]);
@@ -31,7 +31,7 @@ public class FlyCommand implements CommandExecutor {
             return true;
         }
         cel.setAllowFlight(!cel.getAllowFlight());
-        cel.sendMessage(CorePlugin.prefix + " §cPomyslnie " + (cel.getAllowFlight() ? "wlaczono" : "wylaczono" + "§4latanie"));
+        cel.sendMessage(CorePlugin.prefix + " §cPomyslnie " + (cel.getAllowFlight() ? "wlaczono" : "wylaczono" + " §4latanie"));
         return false;
     }
 }

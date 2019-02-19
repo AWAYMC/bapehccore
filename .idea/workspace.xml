@@ -2,41 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BapeHC_Core" />
+      <artifact name="Bapehc.getCore();:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Bapehc_getCore____jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BapeHC_Core.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/META-INF/Bapehc.getCore();.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/CorePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/CorePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ChatUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ChatUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ItemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ItemBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/alert/utils/ChatUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/alert/utils/ChatUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/AlertCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/AlertCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/BroadCastCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/BroadCastCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/CaseCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/CaseCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ChatCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ChatCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/FlyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/FlyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GameModeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GameModeCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GodCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GodCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/KickCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/KickCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpAcceptCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpAcceptCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpDenyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpDenyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpaCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpaCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/AsynPlayerChatListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/AsynPlayerChatListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/BlockedCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/BlockedCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/CasePlaceListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/CasePlaceListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerJoinListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerJoinListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpaManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpaManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,29 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/ChatCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="289">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -96,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,14 +73,7 @@
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
               <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Bapehc.getCore();" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
@@ -150,16 +104,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550519043875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550521352823" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TitleAPI-1.7.7.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arasek71\Desktop\Bapehc_github_core\bapehccore\out" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,24 +136,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53716081-9577-4a2c-8754-47503ea6a758" name="Default Changelist" comment="" />
+      <changelist id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="" />
       <created>1550429327597</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550429327597</updated>
       <workItem from="1550429339051" duration="17222000" />
       <workItem from="1550485271882" duration="13946000" />
+      <workItem from="1550529783665" duration="1846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2581000" />
+    <option name="totallyTimeSpent" value="5351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,7 +173,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,11 +185,21 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="108" lean-forward="true" selection-start-line="13" selection-start-column="108" selection-end-line="13" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/ChatCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -241,10 +210,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../BlockBreakListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -256,7 +232,7 @@
           <artifact-editor>
             <show-sorted>false</show-sorted>
           </artifact-editor>
-          <last-edited>BapeHC_Core</last-edited>
+          <last-edited>Bapehc.getCore();:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

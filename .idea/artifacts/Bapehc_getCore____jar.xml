@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bapehc.getCore();:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bapehc_getCore____jar</output-path>
+    <root id="archive" name="Bapehc.getCore()_.jar">
+      <element id="module-output" name="Bapehc.getCore();" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/PermissionsEx-1.23.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../PROJECT MEDIUMHC/NEONHC_GUILDS.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/TitleAPI-1.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../spigot-1.8.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

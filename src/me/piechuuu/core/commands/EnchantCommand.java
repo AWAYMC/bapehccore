@@ -23,7 +23,7 @@ public class EnchantCommand implements CommandExecutor {
             return false;
         }
         if (strings.length < 1) {
-            commandSender.sendMessage("§4Blad: §cPoprawne uzycie: §7/enchant <nazwa_enchantu> <level>");
+            TitleAPI.sendTitle(p, 20, 50, 20, "§4§lBlad", "§8» §cPoprawne uzycie: §7/enchant <nazwa> <level> ");
             return false;
         } else if (strings.length == 2) {
 
@@ -62,7 +62,7 @@ public class EnchantCommand implements CommandExecutor {
                     TitleAPI.sendTitle(p, 20, 50, 20, "§4§lBlad", "§8» §cNie znaleziono przedmiotu §7/enchantlist");
                     return true;
                 }
-                p.sendMessage("§cPomyslnie enchantowano przedmiot §7" + enchant_name + "na level" + enchant_level + "§7:)");
+                p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano przedmiot §7" + enchant_name + "na level" + enchant_level + " §7:)");
             }catch (NumberFormatException e){
                 TitleAPI.sendTitle(p, 20, 50, 20, "§4§lBlad", "§8» §cPoprawne uzycie: §7/enchant <nazwa> <level> ");
             }

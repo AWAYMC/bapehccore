@@ -52,3 +52,5 @@ commands:
     aliases: [v]
   enchant:
     description: enchantowanie danego przedmiotu
+  enchantlist:
+    description: lista enchantow

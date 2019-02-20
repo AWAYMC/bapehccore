@@ -14,10 +14,12 @@ public class PlayerJoinListener implements Listener {
     public void joinEvent(PlayerJoinEvent e) {
         Player p = e.getPlayer();
         FileManager.createPlayerFile(p);
-        for (int i = 0; i < 100; ++i) ;
+        for (int i = 0; i < 100; ++i) p.sendMessage("");
         p.sendMessage("§7Witaj na serwerze §cBAPE§4HC.PL");
         p.sendMessage("§7Znajdujesz sie §cMedium§4HC");
-        p.sendMessage("§7Zyczymy ci milesj gry :)");
-        TitleAPI.sendTitle(p,20,50,20,"§cBAPE&4HC.PL", "§8» §7Wiecej pod §c/pomoc :)");
+        p.sendMessage("");
+        p.sendMessage("§7Wiecej informacji pod §c/pomoc");
+        p.sendMessage("§7Zyczymy ci milej gry :)");
+        TitleAPI.sendTitle(p,20,50,20,"§cBAPE&4HC.PL", "§8» §7Dziekujemy ze wybrales wlasnie nas :)");
     }
 }

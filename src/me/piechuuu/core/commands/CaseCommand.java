@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 public class CaseCommand implements CommandExecutor {
 
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if (!commandSender.hasPermission(CorePlugin.getPlugin().getConfig().getString("casecmd.permission"))|| !commandSender.isOp()) {
+        if (!commandSender.hasPermission(CorePlugin.getPlugin().getConfig().getString("casecmd.permission")) || !commandSender.isOp()) {
             commandSender.sendMessage(ChatUtil.fixColor(CorePlugin.getPlugin().getConfig().getString("casecmd.permission-message")).replace("{PERM}", CorePlugin.getPlugin().getConfig().getString("casecmd.permission")));
             return true;
         }

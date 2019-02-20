@@ -25,6 +25,7 @@ public class InvCllickEvent implements Listener {
 
         if(e.getInventory().getName().contains("sklep")) {
             e.setCancelled(true);
+
             Integer coinamount = plugin.coinData.get(p.getUniqueId());
 
             if(coinamount == null){

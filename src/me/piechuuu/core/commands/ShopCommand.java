@@ -30,8 +30,8 @@ public class ShopCommand implements CommandExecutor {
 
         ItemStack testItem = new ItemStack(Material.DIAMOND);
         ItemMeta tiMeta = testItem.getItemMeta();
-        tiMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&bDiament &8| &7kliknij aby zakupic"));
-        tiMeta.setLore(Arrays.asList(ChatColor.translateAlternateColorCodes('&', "&cKoszt &8| &7(Coins)"), "300"));
+        tiMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&3Diament"));
+        tiMeta.setLore(Arrays.asList(ChatColor.translateAlternateColorCodes('&', "&cKoszt &8| &7(300)"), "&7Kliknij aby zakupic"));
         testItem.setItemMeta(tiMeta);
         inv = Bukkit.createInventory(null, 9, "§7MENU §8| §cSKLEP");
         inv.setItem(4, testItem);

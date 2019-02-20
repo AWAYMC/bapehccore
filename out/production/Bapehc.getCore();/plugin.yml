@@ -50,3 +50,5 @@ commands:
   vanish:
     description: powoduje znikniecie admininstratora
     aliases: [v]
+  enchant:
+    description: enchantowanie danego przedmiotu

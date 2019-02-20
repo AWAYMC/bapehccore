@@ -34,36 +34,35 @@ public class EnchantCommand implements CommandExecutor {
                 // enchantuje dany przedmiot
                 if (enchant_name.equalsIgnoreCase("sharpness")) {
                     item.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na sharpness");
                 }else if(enchant_name.equalsIgnoreCase("knockback")) {
                     item.addUnsafeEnchantment(Enchantment.KNOCKBACK, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na knockback");
                 }else if(enchant_name.equalsIgnoreCase("fortune")) {
                     item.addUnsafeEnchantment(Enchantment.LOOT_BONUS_BLOCKS, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na fortune");
                 }else if(enchant_name.equalsIgnoreCase("digspeed")) {
                     item.addUnsafeEnchantment(Enchantment.DIG_SPEED, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na digspeed");
                 }else if(enchant_name.equalsIgnoreCase("fortune")) {
                     item.addUnsafeEnchantment(Enchantment.LOOT_BONUS_BLOCKS, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na fortune");
                 }else if(enchant_name.equalsIgnoreCase("silktouch")) {
                     item.addUnsafeEnchantment(Enchantment.SILK_TOUCH, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na silktouch");
                 }else if(enchant_name.equalsIgnoreCase("protection")) {
                     item.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na protection");
                 }else if(enchant_name.equalsIgnoreCase("unbreaking")) {
                     item.addUnsafeEnchantment(Enchantment.DURABILITY, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na unbreaking");
-                }else if(enchant_name.equalsIgnoreCase("fireaspect")){
+                }else if(enchant_name.equalsIgnoreCase("fireaspect")) {
                     item.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, enchant_level);
-                    p.sendMessage(CorePlugin.prefix + " §cPomyslnie enchantowano na fireaspect");
+                }else if(enchant_name.equalsIgnoreCase("punch")) {
+                    item.addUnsafeEnchantment(Enchantment.ARROW_KNOCKBACK, enchant_level);
+                }else if(enchant_name.equalsIgnoreCase("infinity")) {
+                    item.addUnsafeEnchantment(Enchantment.ARROW_INFINITE, enchant_level);
+                }else if(enchant_name.equalsIgnoreCase("power")) {
+                    item.addUnsafeEnchantment(Enchantment.ARROW_DAMAGE, enchant_level);
+                }else if(enchant_name.equalsIgnoreCase("flame")){
+                    item.addUnsafeEnchantment(Enchantment.ARROW_FIRE, enchant_level);
                 }else{
-                    p.sendMessage("§4Blad: §cLista enchantow: §7sharpness,knockback,infinity,fortune,silktouch,digspeed,fireaspect,punch,protection,unbreaking");
+                    TitleAPI.sendTitle(p, 20, 50, 20, "§4§lBlad", "§8» §cNie znaleziono przedmiotu §7/enchantlist");
                     return true;
                 }
-                p.sendMessage("§4Blad: §cPosiadasz ze soba juz przedmiot o tym enchancie");
+                p.sendMessage("§cPomyslnie enchantowano przedmiot §7" + enchant_name + "na level" + enchant_level + "§7:)");
             }catch (NumberFormatException e){
                 TitleAPI.sendTitle(p, 20, 50, 20, "§4§lBlad", "§8» §cPoprawne uzycie: §7/enchant <nazwa> <level> ");
             }

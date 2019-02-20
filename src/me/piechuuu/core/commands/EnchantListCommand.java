@@ -24,7 +24,6 @@ public class EnchantListCommand implements CommandExecutor {
         commandSender.sendMessage("§8» §c/enchant silktouch <level> §7enchantuje wypadnie itemow");
         commandSender.sendMessage("§8» §c/enchant power <level> §7enchantuje moc ");
         commandSender.sendMessage("§8» §c/enchant flame <levek> §7enchantuje ogien ");
-        commandSender.sendMessage("§8»");
 
         return false;
     }

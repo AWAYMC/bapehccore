@@ -73,6 +73,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("kit").setExecutor(new KitCommand());
         getCommand("vanish").setExecutor(new VanishCommand());
         getCommand("enchant").setExecutor(new EnchantCommand());
+        getCommand("enchantlist").setExecutor(new EnchantListCommand());
     }
     private void registerListeners() {
         PluginManager pm = Bukkit.getPluginManager();

@@ -1,15 +1,22 @@
 package me.piechuuu.core.commands;
 
+import com.connorlinfoot.titleapi.TitleAPI;
 import me.piechuuu.core.alert.utils.ChatUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 public class AlertCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
+        Player p = (Player) commandSender;
+        if(!commandSender.hasPermission("bapehc.core.alert")){
+            TitleAPI.sendTitle(p,20,50,20,"§4Blad:", "§8» §cNie masz dostepu do tej komendy");
+            return false;
+        }
         if (strings.length < 2)
             return ChatUtil.sendMessage(commandSender,
                     "&8>> &cPoprawne uzycie: &7/alert <chat/title/subtitle/actionbar> (wiadomosc)");

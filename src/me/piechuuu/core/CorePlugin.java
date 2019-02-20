@@ -18,7 +18,6 @@ public class CorePlugin extends JavaPlugin {
     // /home
     // /setspawn
     // /spawn
-    // /alert
     // /efekty
     // /msg
     // /helpop
@@ -73,6 +72,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("alert").setExecutor(new AlertCommand());
         getCommand("kit").setExecutor(new KitCommand());
         getCommand("vanish").setExecutor(new VanishCommand());
+        getCommand("enchant").setExecutor(new EnchantCommand());
     }
     private void registerListeners() {
         PluginManager pm = Bukkit.getPluginManager();

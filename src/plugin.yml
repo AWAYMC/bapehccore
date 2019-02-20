@@ -54,3 +54,5 @@ commands:
     description: enchantowanie danego przedmiotu
   enchantlist:
     description: lista enchantow
+  sklep:
+    description: sklep serwerowy

@@ -20,5 +20,6 @@
     <orderEntry type="library" name="NEONHC_GUILDS" level="project" />
     <orderEntry type="library" name="PermissionsEx-1.23.4" level="project" />
     <orderEntry type="library" name="TitleAPI-1.7.7" level="project" />
+    <orderEntry type="library" name="Vault" level="project" />
   </component>
 </module>

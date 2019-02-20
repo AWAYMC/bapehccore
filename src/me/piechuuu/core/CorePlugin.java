@@ -10,8 +10,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitTask;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class CorePlugin extends JavaPlugin {
 
@@ -34,8 +33,13 @@ public class CorePlugin extends JavaPlugin {
     public static String prefix = "§cBAPE§4HC §8»"; // prefix serwerowy
     private static CorePlugin plugin;
     public static BukkitTask task;
+    public static CorePlugin hook(){
+        return instance;
+    }
 
     public static List<String> cmd = new ArrayList<>();
+
+    public Map<UUID, Integer> coinData = new HashMap<UUID, Integer>();
 
 
     public void onEnable() {
@@ -88,6 +92,7 @@ public class CorePlugin extends JavaPlugin {
         pm.registerEvents(new PlayerMoveListener(), this); // teleportacja gracza
         pm.registerEvents(new BlockedCmd(), this); // blokowanie danej komendy
         pm.registerEvents(new PlayerJoinListener(), this); // wiadomosc gdy gracz wejdzie na serwer
+        pm.registerEvents(new InvCllickEvent(), this); // inventory sklepu
     }
     public static CorePlugin getPlugin() {
         return CorePlugin.plugin;

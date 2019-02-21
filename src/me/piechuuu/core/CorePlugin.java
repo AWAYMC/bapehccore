@@ -81,6 +81,7 @@ public class CorePlugin extends JavaPlugin {
         getCommand("enchant").setExecutor(new EnchantCommand()); // enchantowanie itemow
         getCommand("enchantlist").setExecutor(new EnchantListCommand()); // lista enchantow
         getCommand("sklep").setExecutor(new ShopCommand()); // serwerowy sklep
+        getCommand("ban").setExecutor(new BanCommand()); // odpowiada za wiadomosc bana
     }
     private void registerListeners() { // rejstruje listenery
         PluginManager pm = Bukkit.getPluginManager(); // potrzebne do zarejstrowania listenerow
@@ -93,6 +94,7 @@ public class CorePlugin extends JavaPlugin {
         pm.registerEvents(new BlockedCmd(), this); // blokowanie danej komendy
         pm.registerEvents(new PlayerJoinListener(), this); // wiadomosc gdy gracz wejdzie na serwer
         pm.registerEvents(new InvCllickEvent(), this); // inventory sklepu
+        pm.registerEvents(new BanListener(), this); // odpowiada zeby gracz po otrzymaniu bana nie mogl wejsc na serwer
     }
     public static CorePlugin getPlugin() {
         return CorePlugin.plugin;

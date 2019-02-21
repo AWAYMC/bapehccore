@@ -11,7 +11,7 @@ public class EnchantListCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         Player p = (Player) commandSender;
-        TitleAPI.sendTitle(p, 20, 50, 20, "§4§lINFO", "§8» §cCzytaj czat ");
+        TitleAPI.sendTitle(p, 20, 50, 20, "§4§lENCHANT", "§8» §cCzytaj czat ");
         commandSender.sendMessage("§8§m-----§8( §cLISTA §8)§m-----");
         commandSender.sendMessage("§8» §c/enchant sharpness <level> §7enchantuje ostrosc");
         commandSender.sendMessage("§8» §c/enchant digspeed <leval> §7enchantuje szybkosc kopania");

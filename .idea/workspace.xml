@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/me/piechuuu/core/commands/BanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/piechuuu/core/listener/BanListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/CorePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/CorePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerJoinListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerJoinListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantListCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantListCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ShopCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ShopCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/InvCllickEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/InvCllickEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,69 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1157#1172#0" expanded="true" />
-                <element signature="e#4903#4904#0" expanded="true" />
-                <element signature="e#4943#4944#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,17 +40,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/AlertCommand.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java" />
-        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/KickCommand.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/listener/BanListener.java" />
+        <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/BanCommand.java" />
       </list>
     </option>
   </component>
@@ -121,9 +63,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-21" />
+    <option name="y" value="5" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -146,12 +88,6 @@
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
               <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
@@ -193,7 +129,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550683589252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550749997769" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Vault.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -241,8 +177,7 @@
     <option name="totallyTimeSpent" value="13175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,27 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/KickCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="34" column="82" lean-forward="true" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/AlertCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -343,27 +257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/BlockedCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -374,20 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1157#1172#0" expanded="true" />
-            <element signature="e#4903#4904#0" expanded="true" />
-            <element signature="e#4943#4944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -395,30 +278,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="297">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-12">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+        <state relative-caret-position="93">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="93" column="78" lean-forward="true" selection-start-line="93" selection-start-column="78" selection-end-line="93" selection-end-column="78" />
+          <folding>
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/KickCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="39" column="107" lean-forward="true" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/commands/BanCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/piechuuu/core/listener/BanListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="74" lean-forward="true" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

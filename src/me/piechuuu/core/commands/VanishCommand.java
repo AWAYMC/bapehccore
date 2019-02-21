@@ -21,7 +21,7 @@ public class VanishCommand implements CommandExecutor {
         final Boolean b = VanishManager.isVanish(player);
         if (!b) VanishManager.addPlayer(player);
         else VanishManager.removePlayer(player);
-        Utils.vanish(player, b, "§8>> §cAdministrator &7"+player.getName()+" §7jest: &7"+ (b ? "§aWIDZIALNY" : "§cNIE WIDZIALNY"));
+        Utils.vanish(player, b, "§8>> §cAdministrator §7"+player.getName()+" §7jest: §7"+ (b ? "§aWIDZIALNY" : "§cNIE WIDZIALNY"));
         return false;
     }
 }

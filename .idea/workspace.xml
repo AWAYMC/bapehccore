@@ -7,63 +7,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/ItemBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/PolishItemNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/alert/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/chatutils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/chatutils/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/AlertCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/BanCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/BroadCastCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ChatCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/FlyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/GameModeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/GodCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HealCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HelpWithCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HelperCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ItemShopCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/KickCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/KitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ModeratorCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/SvipCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpAcceptCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpDenyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpaCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ZamowienieCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/data/CaseInv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/AsynPlayerChatListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/BanListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/BlockedCmd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CaseDropListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CaseKickQuitListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CasePlaceListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InventoryClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerMoveListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/CaseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/ChatManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/PexManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/TpPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/TpaManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/VanishManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/tasks/AutoMessageTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/teleport/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/vanish/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/vanish/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/TitleAPI_1_7_71.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/net/arehard/core/ChatUtil/ChatUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/net/arehard/core/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/net/arehard/core/commands/ISCommands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/net/arehard/core/listeners/PlayerJoinListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bapehc.getCore();.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bapehc.getCore();.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/CorePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/ItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/PolishItemNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/MagiCaseChatUtil/RandomUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/alert/utils/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/chatutils/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/AlertCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/BroadCastCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/CaseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/EnchantListCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/FlyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GameModeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/GodCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/HealCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/HelpWithCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/HelperCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ItemShopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/KickCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/KitCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ModeratorCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ShopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/SvipCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpAcceptCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpDenyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/TpaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/VanishCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/VipCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/commands/ZamowienieCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/data/CaseInv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/AsynPlayerChatListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/BlockedCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/CaseDropListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/CaseKickQuitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/CasePlaceListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/InvCllickEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/InventoryClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerJoinListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/listener/PlayerMoveListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/CaseManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/ChatManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/PexManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/TpaManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/managers/VanishManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/tasks/AutoMessageTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/teleport/utils/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/vanish/utils/ChatUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/me/piechuuu/core/vanish/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bapehc.getCore();/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arehard/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,38 +83,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -112,21 +102,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ISCommands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="149">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,9 +166,10 @@
         <option value="$PROJECT_DIR$/src/net/arehard/core/chatutils/ChatUtil.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/ChatUtil.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java" />
-        <option value="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" />
+        <option value="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" />
       </list>
     </option>
   </component>
@@ -177,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,12 +194,6 @@
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
               <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
@@ -231,16 +231,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552829810495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552830121415" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Adrian/jarki/TitleAPI-1.7.7.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arasek71\Desktop\Bapehc_github_core\bapehccore\src\me\piechuuu\core\data" />
+      <recent name="C:\Users\arasek71\Desktop\Bapehc_github_core\bapehccore\out" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.piechuuu.core.listener" />
+      <recent name="me.piechuuu.core.commands" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,9 +279,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,28 +335,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ISCommands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/Adrian/jarki/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/inventory/ItemStack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Desktop/Adrian/jarki/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/inventory/ItemStack.class" />
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -357,12 +353,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

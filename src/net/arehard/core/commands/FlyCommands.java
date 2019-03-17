@@ -21,7 +21,8 @@ public class FlyCommands implements CommandExecutor {
             return false;
         }
         if(strings.length==0){
-            p.getAllowFlight()
+            p.setAllowFlight(!p.getAllowFlight());
+            p.sendMessage("");
         }
         return false;
     }

@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 public class ChatUtil {
 
     public static String fixColor(String text) {
-        return ChatColor.translateAlternateColorCodes('&', text.replace(">>", "Â»").replace("<<", "Â«"));
+        return ChatColor.translateAlternateColorCodes('&', text.replace(">>", "»").replace("<<", "«"));
     }
     public static boolean sendMsg(final CommandSender sender, final String message) {
         if (sender instanceof Player) {

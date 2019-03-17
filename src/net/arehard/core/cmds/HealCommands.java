@@ -1,6 +1,5 @@
 package net.arehard.core.cmds;
 
-import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -16,15 +15,15 @@ public class HealCommands implements CommandExecutor {
             commandSender.sendMessage("Ta komenda nie jest dla konsoli");
             return false;
         }
-        if (!commandSender.hasPermission("heal.pvp.core")) {
-            TitleAPI.sendTitle(p,20,50,20,ChatUtil.fixColor("&4Blad:"),ChatUtil.fixColor("&cNie masz dostepu do &7(heal.pvp.core)"));
+        if (!commandSender.hasPermission("arehard.core.heal")) {
+        	commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cNie masz uprawien (arehard.core.heal)"));
             return false;
         }
         if(strings.length==0){
             p.setHealth(20);
             p.setFoodLevel(20);
             p.setFireTicks(0);
-            p.sendMessage(ChatUtil.fixColor("&8>> &CZostales uleczony &4pomyslnie"));
+            p.sendMessage(ChatUtil.fixColor("&8>> &7Zostales uleczony!"));
             return true;
         }
         if(strings.length==1) {
@@ -33,15 +32,15 @@ public class HealCommands implements CommandExecutor {
                 cel.setHealth(20);
                 cel.setFoodLevel(20);
                 cel.setFireTicks(0);
-                cel.sendMessage(ChatUtil.fixColor("&cZostales uleczony przez &7" + commandSender.getName()));
-                commandSender.sendMessage(ChatUtil.fixColor("&cUleczyles uzytkownika &7" + cel.getName()));
+                cel.sendMessage(ChatUtil.fixColor("&8>> &7Zostales uleczony przez &c" + commandSender.getName()));
+                commandSender.sendMessage(ChatUtil.fixColor("&8>> &7Uleczyles uzytkownika &c" + cel.getName()));
                 return true;
             } else {
-                commandSender.sendMessage(ChatUtil.fixColor("&8>> &4Blad: &cPodany gracz jest Offline"));
+                commandSender.sendMessage(ChatUtil.fixColor("&8>> &4Blad: &cTen gracz jest OFFLINE!"));
                 return false;
             }
         }else{
-            commandSender.sendMessage(ChatUtil.fixColor("&8>> &4Blad: &cPoprawne uzycie: &7/heal <nick>"));
+            commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cPoprawne uzycie: /heal <nick>"));
             return false;
         }
     }

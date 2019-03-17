@@ -1,6 +1,5 @@
 package net.arehard.core.cmds;
 
-import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -18,8 +17,8 @@ public class GamemodeCommands implements CommandExecutor {
                 commandSender.sendMessage(ChatUtil.fixColor("&4Nie dla konsoli!"));
                 return false;
             }
-            if(!(commandSender.hasPermission("gamemode.pvp.core"))) {
-                TitleAPI.sendTitle(p,20,50,20,ChatUtil.fixColor("&4Blad:"),ChatUtil.fixColor("&8>> &cNie masz dostepu do &7(gamemode.pvp.core)"));
+            if(!(commandSender.hasPermission("arehard.core.amemode"))) {
+            	commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cNie masz uprawien (arehard.core.gamemode)"));
                 return false;
             }
             if(strings.length ==1) {
@@ -72,7 +71,7 @@ public class GamemodeCommands implements CommandExecutor {
                         return true;
                     }
                 } else {
-                    commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cGracz jest offline!"));
+                    commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cGracz jest OFFLINE!"));
                     return false;
                 }
             } else {

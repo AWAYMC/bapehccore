@@ -1,5 +1,6 @@
 package net.arehard.core;
 
+import net.arehard.core.commands.ISCommands;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
@@ -19,9 +20,11 @@ public class Main extends JavaPlugin {
     }
 
     private void registerListener() {
+        getLogger().info("");
     }
 
     private void registerCommands() {
+        getCommand("is").setExecutor(new ISCommands());
     }
 
     public void onDisable() {

@@ -9,7 +9,7 @@ public class Main extends JavaPlugin {
 
     public void onEnable(){
         registerCommands();
-        registerListener();
+        registerEvents();
         getLogger().info("----( AreHardOnEnable )----");
         getLogger().info("» Licencja Zaakceptowana...");
         getLogger().info("» Uruchamianie core...");
@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
         getLogger().info("----( AreHardOnEnable )----");
     }
 
-    private void registerListener() {
+    private void registerEvents() {
         getLogger().info("----( AreHardListeners )----");
         getLogger().info("» Wczytuje listenery...");
         getLogger().info("----( AreHardListeners )----");

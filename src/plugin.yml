@@ -2,3 +2,10 @@ name: AreHard_PVP
 author: adrianekk
 version: 1.0
 main: net.arehard.core.Main
+
+commands:
+  is:
+  alert:
+  gm:
+  fly:
+  chat:

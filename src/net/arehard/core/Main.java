@@ -3,6 +3,8 @@ package net.arehard.core;
 import net.arehard.core.cmds.*;
 import net.arehard.core.config.Config;
 import net.arehard.core.listeners.AsyncPlayerChatListener;
+import net.arehard.core.listeners.InventoryClickListener;
+import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -44,6 +46,8 @@ public class Main extends JavaPlugin {
         getLogger().info("----( AreHardListeners )----");
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
+        getServer().getPluginManager().registerEvents(new InventoryClickListener(), this);
     }
 
 <<<<<<< HEAD

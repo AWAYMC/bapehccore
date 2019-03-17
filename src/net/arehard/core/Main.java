@@ -23,7 +23,6 @@ public class Main extends JavaPlugin {
     private static Main inst;
 
     public void onEnable(){
-        registerListener();
         registerCommands();
         registerListener();
         getLogger().info("----( AreHardOnEnable )----");
@@ -34,10 +33,15 @@ public class Main extends JavaPlugin {
         getLogger().info("» Mysql: 0.5");
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnEnable )----");
+<<<<<<< HEAD
         getConfig().options().copyDefaults(true);
         saveConfig();
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
+=======
+        Config.reloadConfig();
+        Config.saveConfig();
+>>>>>>> 9a281394b8db7a71bbe5412e3b8bf696e064f5a3
     }
 
 

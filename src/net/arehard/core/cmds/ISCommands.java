@@ -1,4 +1,4 @@
-package net.arehard.core.commands;
+package net.arehard.core.cmds;
 
 import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;

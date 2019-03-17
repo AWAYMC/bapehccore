@@ -1,8 +1,7 @@
-package net.arehard.core.commands;
+package net.arehard.core.cmds;
 
 import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;
-import net.milkbowl.vault.chat.Chat;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

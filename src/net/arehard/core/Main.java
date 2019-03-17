@@ -1,6 +1,7 @@
 package net.arehard.core;
 
 import net.arehard.core.cmds.*;
+import net.arehard.core.listeners.AsyncPlayerChatListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -27,6 +28,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Wczytuje listenery...");
         getLogger().info("----( AreHardListeners )----");
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
+        getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
     }
 
     private void registerCommands() {

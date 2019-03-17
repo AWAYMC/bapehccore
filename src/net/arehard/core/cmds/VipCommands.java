@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 
 public class VipCommands implements CommandExecutor {
 
+<<<<<<< HEAD
     public boolean onCommand(final CommandSender sender, final Command cmd, final String label, final String[] args) {
         if (sender instanceof Player) {
             final Player p = (Player)sender;
@@ -23,4 +24,7 @@ public class VipCommands implements CommandExecutor {
         }
         return false;
     }
+=======
+
+>>>>>>> 0d7269e10c11063ec76c7998aefd1957473e5932
 }

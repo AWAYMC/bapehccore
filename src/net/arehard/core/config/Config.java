@@ -41,6 +41,7 @@ public class Config
             for (int length = (fields = Config.class.getFields()).length, i = 0; i < length; ++i) {
                 final Field f = fields[i];
                 c.set("AreHard." + f.getName().toLowerCase().replace("_", "."), f.get(null));
+                saveConfig();
             }
             Main.getPlugin().saveConfig();
         }

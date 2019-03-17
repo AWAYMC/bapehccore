@@ -1,5 +1,5 @@
 name: AreHard_PVP
-author: adrianekk
+authors: [adrianekk, Piechuuu]
 version: 1.0
 main: net.arehard.core.Main
 
@@ -9,3 +9,5 @@ commands:
   gm:
   fly:
   chat:
+  sponsor:
+  vip:

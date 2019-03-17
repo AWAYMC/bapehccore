@@ -1,6 +1,8 @@
 package net.arehard.core;
 
 import net.arehard.core.commands.ISCommands;
+import net.arehard.core.listeners.PlayerJoinListener;
+import net.dzikoysk.funnyguilds.listener.PlayerJoin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
@@ -21,6 +23,7 @@ public class Main extends JavaPlugin {
 
     private void registerListener() {
         getLogger().info("");
+        getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
     }
 
     private void registerCommands() {

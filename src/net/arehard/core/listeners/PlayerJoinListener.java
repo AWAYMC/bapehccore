@@ -18,6 +18,7 @@ public class PlayerJoinListener implements Listener{
     public void onJoin(PlayerJoinEvent e) {
         final Player p = e.getPlayer();
         e.setJoinMessage(ChatUtil.fixColor("&8>> &7Uzytkownik &c" + e.getPlayer().getName() + " &7dolaczyl na serwer!"));
+        e.setJoinMessage(ChatUtil.fixColor("&8>> &7Gracz &c" + e.getPlayer().getName() + " &7dolaczyl na serwer!"));
         p.teleport(Bukkit.getWorld("world").getSpawnLocation());
         p.getInventory().clear();
         p.getInventory().setArmorContents((ItemStack[])null);
@@ -25,7 +26,6 @@ public class PlayerJoinListener implements Listener{
         p.setFoodLevel(20);
         p.setHealth(20);
         p.getInventory().clear();
-        @SuppressWarnings("deprecation")
         final ItemStack sword = new ItemStack(Material.COMPASS);
         final ItemMeta swordMeta = sword.getItemMeta();
         swordMeta.setDisplayName(ChatUtil.fixColor("&cTRYBY"));

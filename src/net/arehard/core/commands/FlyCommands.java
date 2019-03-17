@@ -2,6 +2,8 @@ package net.arehard.core.commands;
 
 import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;
+import net.milkbowl.vault.chat.Chat;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -22,8 +24,16 @@ public class FlyCommands implements CommandExecutor {
         }
         if(strings.length==0){
             p.setAllowFlight(!p.getAllowFlight());
-            p.sendMessage("");
+            p.sendMessage(ChatUtil.fixColor("&8>> &4FLY" + "&cPomyslnie &7"  + (p.getAllowFlight() ? "wlaczono" : " wylaczono") + ChatUtil.fixColor("&flatanie")));
+            return true;
         }
+        Player cel = Bukkit.getPlayerExact(strings[0]);
+        if(cel == null) {
+            TitleAPI.sendTitle(p, 20, 50, 20, ChatUtil.fixColor("&4Blad:"), ChatUtil.fixColor("&8>> &cPodany uzytkownik jest offline"));
+            return false;
+        }
+        cel.setAllowFlight(!cel.getAllowFlight());
+        cel.sendMessage(ChatUtil.fixColor("&8>> &4FLY" + "&cPomyslnie &7"  + (p.getAllowFlight() ? "wlaczono" : " wylaczono") + ChatUtil.fixColor("&flatanie")));
         return false;
     }
 }

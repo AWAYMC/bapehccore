@@ -4,4 +4,5 @@ import org.bukkit.command.CommandExecutor;
 
 public class VipCommands implements CommandExecutor {
 
+
 }

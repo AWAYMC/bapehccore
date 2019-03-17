@@ -1,4 +1,4 @@
-package me.piechuuu.core.chatutils;
+package net.arehard.core.ChatUtil;
 
 import org.bukkit.ChatColor;
 

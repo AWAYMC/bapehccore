@@ -7,63 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/CorePlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/ItemBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/PolishItemNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/MagiCaseChatUtil/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/alert/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/chatutils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/chatutils/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/AlertCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/BanCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/BroadCastCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/CaseCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ChatCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantListCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/FlyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/GameModeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/GodCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HealCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HelpWithCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/HelperCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ItemShopCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/KickCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/KitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ModeratorCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ShopCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/SvipCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpAcceptCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpDenyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/TpaCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VanishCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/VipCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/commands/ZamowienieCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/data/CaseInv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/AsynPlayerChatListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/BanListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/BlockedCmd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CaseDropListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CaseKickQuitListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/CasePlaceListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InvCllickEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/InventoryClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerJoinListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/listener/PlayerMoveListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/CaseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/ChatManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/PexManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/TpPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/TpaManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/managers/VanishManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/tasks/AutoMessageTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/teleport/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/vanish/utils/ChatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/piechuuu/core/vanish/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/arehard/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/net/arehard/core/chatutils/ChatUtil.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/ChatUtil.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java" />
+        <option value="$PROJECT_DIR$/src/net/arehard/core/Main.java" />
       </list>
     </option>
   </component>
@@ -157,6 +112,12 @@
               <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +131,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828030349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828522001" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mc.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -418,8 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>

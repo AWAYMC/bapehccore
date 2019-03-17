@@ -1,9 +1,6 @@
 package net.arehard.core;
 
-import net.arehard.core.cmds.AlertCommands;
-import net.arehard.core.cmds.ChatCommands;
-import net.arehard.core.cmds.FlyCommands;
-import net.arehard.core.cmds.ISCommands;
+import net.arehard.core.cmds.*;
 import net.arehard.core.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -38,6 +35,7 @@ public class Main extends JavaPlugin {
         getCommand("alert").setExecutor(new AlertCommands());
         getCommand("fly").setExecutor(new FlyCommands());
         getCommand("chat").setExecutor(new ChatCommands());
+        getCommand("gm").setExecutor(new GamemodeCommands());
     }
 
     public void onDisable() {

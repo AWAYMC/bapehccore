@@ -36,6 +36,7 @@ public class Main extends JavaPlugin {
         getCommand("fly").setExecutor(new FlyCommands());
         getCommand("chat").setExecutor(new ChatCommands());
         getCommand("gm").setExecutor(new GamemodeCommands());
+        getCommand("vip").setExecutor(new VipCommands());
     }
 
     public void onDisable() {

@@ -41,6 +41,7 @@ public class Main extends JavaPlugin {
         getCommand("chat").setExecutor(new ChatCommands());
         getCommand("gm").setExecutor(new GamemodeCommands());
         getCommand("vip").setExecutor(new VipCommands());
+        getCommand("sponsor").setExecutor(new SponsorCommands());
     }
 
     public void onDisable() {

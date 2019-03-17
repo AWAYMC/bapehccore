@@ -1,6 +1,7 @@
 package net.arehard.core;
 
 import net.arehard.core.cmds.*;
+import net.arehard.core.config.Config;
 import net.arehard.core.listeners.AsyncPlayerChatListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -28,6 +29,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Mysql: 0.5");
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnEnable )----");
+        Config.reloadConfig();
     }
 
 

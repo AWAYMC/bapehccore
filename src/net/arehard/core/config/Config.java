@@ -13,8 +13,8 @@ public class Config
     public static List<String> SETTINGS_SPONSOR;
 
     static {
-        Config.SETTINGS_VIP = Arrays.asList("test", "test", "test", "test","test","test","test","test","test");
-        Config.SETTINGS_SPONSOR = Arrays.asList("test", "test", "test", "test","test","test","test","test","test");
+        Config.SETTINGS_VIP = Arrays.asList("test", "test", "test", "test", "test", "test", "test", "test", "test");
+        Config.SETTINGS_SPONSOR = Arrays.asList("test", "test", "test", "test", "test", "test", "test", "test", "test");
     }
 
     public static void loadConfig() {

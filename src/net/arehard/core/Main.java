@@ -10,9 +10,15 @@ public class Main extends JavaPlugin {
 
     private static Main inst;
 
+<<<<<<< HEAD
     public void onEnable(){
         regCom();
         regEvents();
+=======
+    public void onEnable() {
+        registerCommands();
+        registerListener();
+>>>>>>> dfaa53145ea9340d6eabe4b5286f2a7ac6f1eeb5
         getLogger().info("----( AreHardOnEnable )----");
         getLogger().info("» Licencja Zaakceptowana...");
         getLogger().info("» Uruchamianie core...");
@@ -23,7 +29,11 @@ public class Main extends JavaPlugin {
         getLogger().info("----( AreHardOnEnable )----");
     }
 
+<<<<<<< HEAD
     private void regEvents() {
+=======
+    private void registerListener() {
+>>>>>>> dfaa53145ea9340d6eabe4b5286f2a7ac6f1eeb5
         getLogger().info("----( AreHardListeners )----");
         getLogger().info("» Wczytuje listenery...");
         getLogger().info("----( AreHardListeners )----");
@@ -31,7 +41,11 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
     }
 
+<<<<<<< HEAD
     private void regCom() {
+=======
+    private void registerCommands() {
+>>>>>>> dfaa53145ea9340d6eabe4b5286f2a7ac6f1eeb5
         getLogger().info("----( AreHardCommands )----");
         getLogger().info("» Wczytuje komendy...");
         getLogger().info("----( AreHardCommands )----");

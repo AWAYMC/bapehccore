@@ -1,6 +1,7 @@
 package net.arehard.core.ChatUtil;
 
 import org.bukkit.*;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class ChatUtil {
@@ -11,6 +12,18 @@ public class ChatUtil {
 
     public static void sendMessage(Player p, String text) {
         p.sendMessage(fixColor(text));
+    }
+
+    public static boolean sendMsg(final CommandSender sender, final String message) {
+        if (sender instanceof Player) {
+            if (message != null || message != "") {
+                sender.sendMessage(fixColor(message));
+            }
+        }
+        else {
+            sender.sendMessage(ChatColor.stripColor(fixColor(message)));
+        }
+        return true;
     }
 }
 

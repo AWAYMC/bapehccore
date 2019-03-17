@@ -7,6 +7,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 
+    private static Main inst;
+
     public void onEnable(){
         registerCommands();
         registerEvents();
@@ -48,4 +50,15 @@ public class Main extends JavaPlugin {
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnDisable )----");
     }
+    public static Main getPlugin() {
+        if (Main.inst == null) {
+            return new Main();
+        }
+        return Main.inst;
+    }
+
+    public static Main getInst() {
+        return Main.inst;
+    }
+
 }

@@ -12,7 +12,6 @@ public class Main extends JavaPlugin {
     private static Main inst;
 
     public void onEnable(){
-        registerListener();
         registerCommands();
         registerListener();
         getLogger().info("----( AreHardOnEnable )----");
@@ -24,6 +23,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnEnable )----");
         Config.reloadConfig();
+        Config.saveConfig();
     }
 
 

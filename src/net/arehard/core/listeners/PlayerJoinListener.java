@@ -20,7 +20,7 @@ public class PlayerJoinListener implements Listener{
         e.setJoinMessage(ChatUtil.fixColor("&8>> &7Gracz &c" + e.getPlayer().getName() + " &7dolaczyl na serwer!"));
         p.teleport(Bukkit.getWorld("world").getSpawnLocation());
         p.getInventory().clear();
-        p.getInventory().setArmorContents((ItemStack[])null);
+        p.getInventory().setArmorContents(null);
         p.setFoodLevel(20);
         p.setFoodLevel(20);
         p.setHealth(20);

@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
     private static Main inst;
 
     public void onEnable(){
-        registerCommands();
+        registerCom();
         registerEvents();
         getLogger().info("----( AreHardOnEnable )----");
         getLogger().info("» Licencja Zaakceptowana...");
@@ -31,7 +31,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
     }
 
-    private void registerCommands() {
+    private void registerCom() {
         getLogger().info("----( AreHardCommands )----");
         getLogger().info("» Wczytuje komendy...");
         getLogger().info("----( AreHardCommands )----");

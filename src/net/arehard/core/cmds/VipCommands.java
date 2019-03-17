@@ -13,7 +13,7 @@ public class VipCommands implements CommandExecutor {
         if (sender instanceof Player) {
             final Player p = (Player)sender;
             for (final String m : Config.SETTINGS_VIP) {
-                ChatUtil.sendMsg((CommandSender)p, m.replace("{NICK}", p.getName()));
+                ChatUtil.sendMsg(p, m.replace("{NICK}", p.getName()));
                 return false;
             }
 

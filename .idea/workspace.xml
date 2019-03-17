@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Bapehc.getCore();:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="04b3a2c6-8291-42ed-8c9a-de80cc500cc9" name="Default Changelist" comment="" />
+=======
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/net/arehard/core/cmds/VipCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/arehard/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,23 +31,123 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+=======
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/AlertCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/ChatCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+>>>>>>> dd5b99b10606baa7857058bf0d22ef9f8a00e182
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/VipCommands.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+=======
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ISCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/GamemodeCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
+>>>>>>> dd5b99b10606baa7857058bf0d22ef9f8a00e182
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +155,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" />
+=======
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/AlertCommand.java" />
         <option value="$PROJECT_DIR$/src/me/piechuuu/core/commands/EnchantCommand.java" />
@@ -78,16 +181,14 @@
         <option value="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/commands/AlertCommands.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/cmds/GamemodeCommands.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/net/arehard/core/Main.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/cmds/VipCommands.java" />
+=======
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
+>>>>>>> dd5b99b10606baa7857058bf0d22ef9f8a00e182
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="115" />
-    <option name="y" value="-18" />
-    <option name="width" value="1400" />
-    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,8 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +209,12 @@
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
               <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bapehccore" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bapehccore" type="b2602c69:ProjectViewProjectNode" />
@@ -147,10 +252,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552833515995" />
+=======
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552832848583" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552832745560" />
+>>>>>>> dd5b99b10606baa7857058bf0d22ef9f8a00e182
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../awaymctools" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
@@ -166,6 +280,7 @@
       <recent name="me.piechuuu.core.listener" />
       <recent name="me.piechuuu.core.commands" />
     </key>
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +299,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="" />
+      <changelist id="36746431-b42b-4489-b1e6-ff937111c0b5" name="Default Changelist" comment="" />
       <created>1550429327597</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -196,10 +311,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,7 +322,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -233,41 +348,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/ChatUtil/ChatUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/ISCommands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/Adrian/jarki/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/inventory/ItemStack.class" />
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/Adrian/jarki/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/inventory/ItemStack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+=======
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/managers/ChatManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -285,13 +407,19 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="463">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+=======
         <state relative-caret-position="331">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -300,6 +428,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/cmds/AlertCommands.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="51">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+=======
         <state relative-caret-position="425">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
@@ -332,6 +464,7 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 2c7d76c5b10079f2f4bccc41ee2e879c77d64c3e
         </state>
       </provider>
     </entry>
@@ -342,83 +475,5 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Bapehc.getCore();:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Invalid</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Bapehc.getCore();</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>TitleAPI-1.7.71</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

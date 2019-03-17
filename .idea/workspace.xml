@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c97a18-147c-4278-89e0-d537335adc85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/arehard/core/managers/ChatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="158">
+              <caret line="21" column="138" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="138" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/arehard/core/managers/ChatManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,14 +118,16 @@
         <option value="$PROJECT_DIR$/src/net/arehard/core/Main.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/listeners/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java" />
+        <option value="$PROJECT_DIR$/src/net/arehard/core/managers/ChatManager.java" />
+        <option value="$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-21" />
-    <option name="y" value="5" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="115" />
+    <option name="y" value="-18" />
+    <option name="width" value="1400" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,8 +190,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552830770296" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Adrian/jarki/TitleAPI-1.7.7.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552831093393" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../awaymctools" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -210,7 +238,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,8 +332,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/FlyCommands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="158">
+          <caret line="21" column="138" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/commands/ChatCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/arehard/core/managers/ChatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

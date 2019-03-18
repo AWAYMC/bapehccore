@@ -15,7 +15,7 @@ public class ISCommands implements CommandExecutor {
             return false;
         }
         if(strings.length < 1){
-            commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cPoprawne uzycie: /is <nick> <usluga>"));
+            commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cPoprawne uzycie: &7/is <nick> <usluga>"));
             return false;
         }
         if(strings.length < 2){
@@ -23,12 +23,12 @@ public class ISCommands implements CommandExecutor {
             return false;
         }
         if(strings[1].equalsIgnoreCase("vip")){
-            ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&4ITEMSHOP", "&7Uzytkownik &c" + strings[0] + "&7zakupil range &6vip ");
+            ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&4ITEMSHOP", "&7Uzytkownik &c" + strings[0] + " &7zakupil range &6vip ");
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user " + strings[0] + " group set vip");
             return true;
         }
         if(strings[1].equalsIgnoreCase("sponsor")){
-        	ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&4ITEMSHOP", "&7Uzytkownik &c" + strings[0] + "&7zakupil range &6vip ");
+        	ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&4ITEMSHOP", "&7Uzytkownik &c" + strings[0] + " &7zakupil range &5sponsor ");
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user " + strings[0] + " group set sponsor");
             return true;
         }

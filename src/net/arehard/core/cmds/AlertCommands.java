@@ -22,13 +22,13 @@ public class AlertCommands implements CommandExecutor {
 		final String message = out;
 		switch (args[0].toLowerCase()) {
 		case "chat":
-			return ChatUtil.sendMessage(Bukkit.getOnlinePlayers(), "&8[&4UWAGA&8] &6" + message);
+			return ChatUtil.sendMessage(Bukkit.getOnlinePlayers(), "&8[&4AREHARD&8] &c" + message);
 		case "title":
-			return ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&6" + message, " ");
+			return ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&8[&4AREHARD&8]", "&c" + message);
 		case "subtitle":
-			return ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&8[&4ALERT&8]", "&6" + message);
+			return ChatUtil.sendTitle(Bukkit.getOnlinePlayers(), "&8[&4AREHARD&8]", "&c" + message);
 		case "actionbar":
-			return ChatUtil.sendActionBar(Bukkit.getOnlinePlayers(), "&6" + message);
+			return ChatUtil.sendActionBar(Bukkit.getOnlinePlayers(), "&c" + message);
 		}
 		return false;
 	}

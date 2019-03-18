@@ -16,4 +16,6 @@ commands:
   coins:
   acoins:
   alert:
+  setspawn:
+  spawn:
  

@@ -1,5 +1,8 @@
 package net.arehard.core;
 
+import org.bukkit.World;
+import org.bukkit.WorldCreator;
+import org.bukkit.WorldType;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.arehard.core.cmds.ACoinsCommands;
@@ -20,13 +23,20 @@ import net.arehard.core.listeners.PlayerCommandListener;
 import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
+<<<<<<< HEAD
 import net.arehard.core.listeners.WaterPlaceListener;
 import net.arehard.core.taks.AutoMessageTask;
+=======
+import net.arehard.core.taks.AutoMessageTask;
+import net.arehard.core.listeners.WaterPlaceListener;
+>>>>>>> 749e48ddb0b3100a0cd3b5a9eccb972cae89a546
 
 
 public class Main extends JavaPlugin {
 
     private static Main inst;
+    
+    World world;
 
     public void onEnable(){
         registerCommands();
@@ -47,10 +57,19 @@ public class Main extends JavaPlugin {
         saveConfig();
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
+        createWorld();
     }
 
 
-    private void registerTaks() {
+    public void createWorld(){
+        WorldCreator knockback = new WorldCreator("knockback");
+        knockback.type(WorldType.FLAT);
+        knockback.generateStructures(false);
+        world = knockback.createWorld();
+    }
+
+
+	private void registerTaks() {
     	new AutoMessageTask(this);
 		
 	}

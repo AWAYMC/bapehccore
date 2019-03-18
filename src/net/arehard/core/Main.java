@@ -1,8 +1,12 @@
 package net.arehard.core;
 
+import java.io.File;
+
+import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.WorldType;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.arehard.core.cmds.ACoinsCommands;
@@ -16,6 +20,7 @@ import net.arehard.core.cmds.ISCommands;
 import net.arehard.core.cmds.KickCommands;
 import net.arehard.core.cmds.SpawnCommands;
 import net.arehard.core.cmds.VanishCommand;
+import net.arehard.core.cmds.YouTubeCommand;
 import net.arehard.core.config.Config;
 import net.arehard.core.listeners.AsyncPlayerChatListener;
 import net.arehard.core.listeners.FoodLevelChangeListener;
@@ -27,11 +32,14 @@ import net.arehard.core.listeners.PlayerJoinListener;
 import net.arehard.core.listeners.VanishListener;
 import net.arehard.core.listeners.WaterPlaceListener;
 import net.arehard.core.taks.AutoMessageTask;
+import net.arehard.core.taks.DeleteTask;
+import net.arehard.core.yaml.Reklamy;
 
 
 public class Main extends JavaPlugin {
 
     private static Main inst;
+    private static JavaPlugin pl;
     
     World world;
 
@@ -55,6 +63,14 @@ public class Main extends JavaPlugin {
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
         createWorld();
+        Reklamy.loadReklamy();
+        Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new DeleteTask(), 0L, 100L);
+        Config.loadMessages();
+        Main.pl = this;
+        final File configFile = new File(this.getDataFolder(), "config.yml");
+        if (!configFile.exists()) {
+            this.saveDefaultConfig();
+   
     }
 
 
@@ -113,6 +129,7 @@ public class Main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new SpawnCommands());
         getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
+        getCommand("yt").setExecutor(new YouTubeCommand());
     }
 
     public void onDisable() {
@@ -136,5 +153,7 @@ public class Main extends JavaPlugin {
     public static Main getInst() {
         return Main.inst;
     }
-
-}
+    public static JavaPlugin getPlugin1() {
+        return Main.pl;
+    }
+    }

@@ -1,4 +1,4 @@
-package net.arehard.core.config;
+package net.arehard.core.yaml;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

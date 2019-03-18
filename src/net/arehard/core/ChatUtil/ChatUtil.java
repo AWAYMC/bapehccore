@@ -56,20 +56,26 @@ public class ChatUtil {
 			p.stream().forEach(cp -> sendActionBar(cp, m));
 			return false;
 		}
-
-<<<<<<< HEAD
 		public static void vanish(Player player, Boolean b, String string) {
 			// TODO Auto-generated method stub
 			
 		}
-=======
 		public static void giveItems(final Player p, final ItemStack... items) {
 	        final Inventory i = (Inventory)p.getInventory();
 	        final HashMap<Integer, ItemStack> notStored = (HashMap<Integer, ItemStack>)i.addItem(items);
 	        for (final Map.Entry<Integer, ItemStack> e : notStored.entrySet()) {
 	            p.getWorld().dropItemNaturally(p.getLocation(), (ItemStack)e.getValue());
 	    }
->>>>>>> 4f2e4d7632ba486e801217d912656fdea2c0e1d1
 	}
+
+		public static String sendMsg(String string) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public static String translate(String replace) {
+			// TODO Auto-generated method stub
+			return null;
+		}
 }
 

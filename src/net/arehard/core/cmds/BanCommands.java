@@ -52,13 +52,6 @@ public class BanCommands implements CommandExecutor {
                 plugin.getConfig().set("banned_players."+target.getName()+".reason", x.toString().trim());
                 plugin.saveConfig();
  
-                /**
-                 * banned_players:
-                 *    DeveloperB:
-                 *      banner: Server
-                 *      reason: You suck at coding
-                 */
- 
                 sender.sendMessage(ChatColor.GREEN+"Successfully banned: "+target.getName());
             }
         }

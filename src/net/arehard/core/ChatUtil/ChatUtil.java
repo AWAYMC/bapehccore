@@ -1,10 +1,14 @@
 package net.arehard.core.ChatUtil;
 
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 
 import net.minecraft.server.v1_8_R3.IChatBaseComponent;
 import net.minecraft.server.v1_8_R3.PacketPlayOutChat;
@@ -52,5 +56,13 @@ public class ChatUtil {
 			p.stream().forEach(cp -> sendActionBar(cp, m));
 			return false;
 		}
+
+		public static void giveItems(final Player p, final ItemStack... items) {
+	        final Inventory i = (Inventory)p.getInventory();
+	        final HashMap<Integer, ItemStack> notStored = (HashMap<Integer, ItemStack>)i.addItem(items);
+	        for (final Map.Entry<Integer, ItemStack> e : notStored.entrySet()) {
+	            p.getWorld().dropItemNaturally(p.getLocation(), (ItemStack)e.getValue());
+	    }
 	}
+}
 

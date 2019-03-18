@@ -25,7 +25,7 @@ public class InventoryClickListener implements Listener{
             event.setCancelled(true);
             if (event.getSlot() == 0) {
             	p.closeInventory();
-            	p.teleport(Bukkit.getWorld("world_nether").getSpawnLocation());
+            	p.teleport(Bukkit.getWorld("knockback").getSpawnLocation());
                 p.getInventory().clear();
                 p.getInventory().setArmorContents(null);
                 p.setHealth(20);
@@ -38,19 +38,21 @@ public class InventoryClickListener implements Listener{
                 p.getInventory().setChestplate(new ItemBuilder1(Material.DIAMOND_CHESTPLATE).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3).addEnchantment(Enchantment.DURABILITY, 2).build());
                 p.getInventory().setLeggings(new ItemBuilder1(Material.DIAMOND_LEGGINGS).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3).addEnchantment(Enchantment.DURABILITY, 2).build());
                 p.getInventory().setBoots(new ItemBuilder1(Material.DIAMOND_BOOTS).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3).addEnchantment(Enchantment.DURABILITY, 2).build());
-                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.DIAMOND_SWORD).addEnchantment(Enchantment.DAMAGE_ALL, 2).addEnchantment(Enchantment.FIRE_ASPECT, 2).build() });
-                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.DIAMOND_SWORD).addEnchantment(Enchantment.DAMAGE_ALL, 3).addEnchantment(Enchantment.KNOCKBACK, 2).build() });
+                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.DIAMOND_SWORD).addEnchantment(Enchantment.DAMAGE_ALL, 5).addEnchantment(Enchantment.FIRE_ASPECT, 2).build() });
+                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.DIAMOND_SWORD).addEnchantment(Enchantment.KNOCKBACK, 2).build() });
                 if (p.hasPermission("arehard.core.pvp.vip")) {
-                    p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 16).setTitle(ChatUtil.fixColor("&6&lMutant")).build() });
+                	p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 3, (short)1).setTitle(ChatUtil.fixColor("KOX")).build() });
+                	p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 15).setTitle(ChatUtil.fixColor("KOX")).build() });
                 }
                 else {
-                    p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 8).setTitle(ChatUtil.fixColor("&6&lMutant")).build() });
+                	 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 2, (short)1).setTitle(ChatUtil.fixColor("KOX")).build() });
+                	 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.GOLDEN_APPLE, 10).setTitle(ChatUtil.fixColor("KOX")).build() });
                 }
                 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.FISHING_ROD).build() });
                 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.COOKED_BEEF, 64).build() });
                 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.COBBLESTONE, 64).build() });
                 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.WATER_BUCKET).build() });
-                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.SLIME_BLOCK).build() });
+                p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.DIAMOND_PICKAXE).addEnchantment(Enchantment.DIG_SPEED, 5).build() });
                 p.getInventory().addItem(new ItemStack[] { new ItemBuilder1(Material.ENDER_PEARL, 2).build() });
                 return;
             }

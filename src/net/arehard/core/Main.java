@@ -13,7 +13,10 @@ import net.arehard.core.cmds.ISCommands;
 import net.arehard.core.cmds.KickCommands;
 import net.arehard.core.config.Config;
 import net.arehard.core.listeners.AsyncPlayerChatListener;
+import net.arehard.core.listeners.FoodLevelChangeListener;
 import net.arehard.core.listeners.InventoryClickListener;
+import net.arehard.core.listeners.PlayerCommandListener;
+import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 
@@ -52,6 +55,9 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
         getServer().getPluginManager().registerEvents(new InventoryClickListener(), this);
+        getServer().getPluginManager().registerEvents(new FoodLevelChangeListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerCommandListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
     }
 
     private void registerCommands() {

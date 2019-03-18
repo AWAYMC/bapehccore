@@ -25,6 +25,7 @@ public class Main extends JavaPlugin {
     public void onEnable(){
         registerCommands();
         registerListener();
+        getLogger().info("");
         getLogger().info("----( AreHardOnEnable )----");
         getLogger().info("» Licencja Zaakceptowana...");
         getLogger().info("» Uruchamianie core...");
@@ -33,6 +34,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Mysql: 0.5");
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnEnable )----");
+        getLogger().info("");
         getConfig().options().copyDefaults(true);
         saveConfig();
         Config.registerConfig("coins", "coins.yml", this);
@@ -41,9 +43,11 @@ public class Main extends JavaPlugin {
 
 
     private void registerListener() {
+        getLogger().info("");
         getLogger().info("----( AreHardListeners )----");
         getLogger().info("» Wczytuje listenery...");
         getLogger().info("----( AreHardListeners )----");
+        getLogger().info("");
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(), this);
@@ -51,9 +55,11 @@ public class Main extends JavaPlugin {
     }
 
     private void registerCommands() {
+        getLogger().info("");
         getLogger().info("----( AreHardCommands )----");
         getLogger().info("» Wczytuje komendy...");
         getLogger().info("----( AreHardCommands )----");
+        getLogger().info("");
         getCommand("is").setExecutor(new ISCommands());
         getCommand("alert").setExecutor(new AlertCommands());
         getCommand("fly").setExecutor(new FlyCommands());
@@ -66,6 +72,7 @@ public class Main extends JavaPlugin {
     }
 
     public void onDisable() {
+        getLogger().info("");
         getLogger().info("----( AreHardOnDisable )----");
         getLogger().info("» Wylaczanie core...");
         getLogger().info("» Autorzy: Adrianekk, Piechuuu");
@@ -73,6 +80,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Mysql: 0.5");
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnDisable )----");
+        getLogger().info("");
     }
     public static Main getPlugin() {
         if (Main.inst == null) {

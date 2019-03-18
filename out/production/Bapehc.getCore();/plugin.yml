@@ -18,4 +18,6 @@ commands:
   alert:
   setspawn:
   spawn:
+  vanish:
+    aliases: [v]
  

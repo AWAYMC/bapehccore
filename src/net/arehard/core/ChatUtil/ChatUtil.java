@@ -52,5 +52,10 @@ public class ChatUtil {
 			p.stream().forEach(cp -> sendActionBar(cp, m));
 			return false;
 		}
+
+		public static void vanish(Player player, Boolean b, String string) {
+			// TODO Auto-generated method stub
+			
+		}
 	}
 

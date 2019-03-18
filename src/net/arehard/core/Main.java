@@ -19,6 +19,7 @@ import net.arehard.core.listeners.PlayerCommandListener;
 import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
+import net.arehard.core.listeners.WaterPlaceListener;
 
 
 public class Main extends JavaPlugin {
@@ -58,6 +59,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new FoodLevelChangeListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerCommandListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
+        getServer().getPluginManager().registerEvents(new WaterPlaceListener(), this);
     }
 
     private void registerCommands() {

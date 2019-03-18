@@ -22,10 +22,6 @@ public class InventoryClickListener implements Listener{
             	return;
             } 
         }
-        if(event.getInventory().getType() == InventoryType.PLAYER)
-        {
-            event.setCancelled(true);
-        }
         if ((ChatUtil.fixColor("&cAdministracja")).equalsIgnoreCase(event.getInventory().getName())) {
             event.setCancelled(true);
             if (event.getSlot() == 0) {

@@ -2,8 +2,13 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/arasek71/Downloads/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
-	<classpathentry kind="lib" path="C:/Users/arasek71/Downloads/TitleAPI-1.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/arasek71/Downloads/PermissionsEx-1.23.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/TitleAPI-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/PermissionsEx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/ProtocolTab.v1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/BungeeTabListPlus-2.8.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/BungeeTabListPlus_BukkitBridge-2.8.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mariusz/Desktop/Adrian/jarki/BungeeTabListPlus_SpongeBridge-2.8.9.jar"/>
 	<classpathentry kind="output" path="out/production/Bapehc.getCore();"/>
 </classpath>

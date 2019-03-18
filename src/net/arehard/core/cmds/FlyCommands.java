@@ -1,38 +1,56 @@
 package net.arehard.core.cmds;
 
-import com.connorlinfoot.titleapi.TitleAPI;
-import net.arehard.core.ChatUtil.ChatUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class FlyCommands implements CommandExecutor {
+import net.arehard.core.ChatUtil.*;
 
-    @Override
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        Player p = (Player) commandSender;
-        if(!(commandSender instanceof Player)){
-            commandSender.sendMessage("Ta komenda nie jest od poziomu konsoli");
-            return false;
+public class FlyCommands implements CommandExecutor
+{
+    public boolean onCommand(final CommandSender sender, final Command cmd, final String label, final String[] args) {
+    	if(cmd.getName().equalsIgnoreCase("fly")) {
+    		if (!(sender instanceof Player)) {
+                sender.sendMessage("ONLY PLAYER!");
+                return true;
+            }
+            if (!sender.hasPermission("arehard.core.fly")) {
+                sender.sendMessage(ChatUtil.fixColor("&4Blad: &cNie masz uprawnien (arehard.core.fly)"));
+                return true;
+            }
+            if (args.length == 0) {
+                final Player p = (Player)sender;
+                if (p.getAllowFlight()) {
+                    p.sendMessage(ChatUtil.fixColor("&8>> &7Fly zostal: &cWYLACZONY!"));
+                    p.setAllowFlight(false);
+                    p.setFlying(false);
+                }
+                else {
+                    p.sendMessage(ChatUtil.fixColor("&8>> &7Fly zostal: &cWLACZONY!"));
+                    p.setAllowFlight(true);
+                    p.setFlying(true);
+                }
+            }
+            else if (args.length == 1) {
+                final Player pArg = Bukkit.getPlayerExact(args[0]);
+                if (pArg == null) {
+                    sender.sendMessage(ChatUtil.fixColor("&4Blad: &cGracz jest OFFLINE!"));
+                    return true;
+                }
+                if (pArg.getAllowFlight()) {
+                    pArg.setFlying(false);
+                    pArg.setAllowFlight(false);
+                    sender.sendMessage(ChatUtil.fixColor("&8>> &7Tryb latania dla gracza &c" + pArg.getName() + " &7zostal &cWYLACZONY!"));
+                }
+                else {
+                    pArg.setFlying(true);
+                    pArg.setAllowFlight(true);
+                    sender.sendMessage(ChatUtil.fixColor("&8>> &7Tryb latania dla gracza &c" + pArg.getName() + " &7zostal &cWLACZONY!"));
+                }
+            }
         }
-        if(!commandSender.hasPermission("fly.pvp.core")){
-            TitleAPI.sendTitle(p,20,50,20, ChatUtil.fixColor("&4Blad:"),ChatUtil.fixColor("&8>> &cNie masz dostepu do &7(fly.pvp.core)"));
-            return false;
-        }
-        if(strings.length==0){
-            p.setAllowFlight(!p.getAllowFlight());
-            p.sendMessage(ChatUtil.fixColor("&8>> &4FLY" + "&cPomyslnie &7"  + (p.getAllowFlight() ? "wlaczono" : " wylaczono") + ChatUtil.fixColor("&flatanie")));
-            return true;
-        }
-        Player cel = Bukkit.getPlayerExact(strings[0]);
-        if(cel == null) {
-            TitleAPI.sendTitle(p, 20, 50, 20, ChatUtil.fixColor("&4Blad:"), ChatUtil.fixColor("&8>> &cPodany uzytkownik jest offline"));
-            return false;
-        }
-        cel.setAllowFlight(!cel.getAllowFlight());
-        cel.sendMessage(ChatUtil.fixColor("&8>> &4FLY" + "&cPomyslnie &7"  + (p.getAllowFlight() ? "wlaczono" : " wylaczono") + ChatUtil.fixColor("&flatanie")));
-        return false;
+		return false;
     }
 }

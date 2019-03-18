@@ -1,25 +1,22 @@
 package net.arehard.core.cmds;
 
-import com.connorlinfoot.titleapi.TitleAPI;
 import net.arehard.core.ChatUtil.ChatUtil;
 import net.arehard.core.managers.ChatManager;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 public class ChatCommands implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        Player p = (Player) commandSender;
-        if (!commandSender.hasPermission("chat.pvp.core")) {
-            TitleAPI.sendTitle(p, 20, 50, 20, ChatUtil.fixColor("&4Blad:"), ChatUtil.fixColor("&8>> &cNie masz dostepu do &7(chat.pvp.core)"));
+        if (!commandSender.hasPermission("arehard.core.chat")) {
+            commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cNie masz uprawien (arehard.core.chat)"));
             return false;
         }
         if (strings.length == 0) {
-            commandSender.sendMessage(ChatUtil.fixColor("&8>> &7Poprawne uzycie: &3/chat (on|off|cc)"));
+            commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cPoprawne uzycie: /chat <on/off/cc>"));
             return true;
         }
         switch (strings[0].toLowerCase()) {
@@ -28,7 +25,7 @@ public class ChatCommands implements CommandExecutor {
             case "cc": {
                 for (int i = 0; i < 100; ++i) Bukkit.broadcastMessage("");
                 Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Chat zostal wyczyszczony!"));
-                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &3" + commandSender.getName() + "!"));
+                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &c" + commandSender.getName() + "!"));
                 return true;
             }
             case "wylacz":
@@ -38,7 +35,7 @@ public class ChatCommands implements CommandExecutor {
                     return true;
                 }
                 Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Chat zostal wylaczony!"));
-                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &3" + commandSender.getName() + "!"));
+                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &c" + commandSender.getName() + "!"));
                 ChatManager.setEnabled(false);
                 return true;
             }
@@ -49,7 +46,7 @@ public class ChatCommands implements CommandExecutor {
                     return true;
                 }
                 Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Chat zostal wlaczony!"));
-                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &3" + commandSender.getName() + "!"));
+                Bukkit.broadcastMessage(ChatUtil.fixColor("&8>> &7Przez: &c" + commandSender.getName() + "!"));
                 ChatManager.setEnabled(true);
                 return true;
             }

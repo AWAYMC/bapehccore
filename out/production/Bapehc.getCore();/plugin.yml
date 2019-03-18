@@ -5,9 +5,13 @@ main: net.arehard.core.Main
 
 commands:
   is:
+    aliases: [itemshop]
   alert:
   gm:
+    aliases: [gamemode]
   fly:
   chat:
-  sponsor:
-  vip:
+  kick:
+  ban:
+  coins:
+  acoins:

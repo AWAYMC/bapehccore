@@ -27,20 +27,6 @@ public class ACoinsCommands implements CommandExecutor {
         	commandSender.sendMessage(ChatUtil.fixColor("&8>> &7Dodales sobie &c" + strings[0] + " &7coinsow!"));
         	return false;
         }
-        if(strings.length == 2) {
-        	@SuppressWarnings("deprecation")
-			final Player o = Bukkit.getPlayerExact(strings[0]);
-            if (o == null) {
-                commandSender.sendMessage(ChatUtil.fixColor("&4Blad: &cGracz jest OFFLINE!"));
-                return true;
-            } else {
-            	CoinsUtil.CoinsP(o, Integer.parseInt(strings[0]));
-            	o.sendMessage(ChatUtil.fixColor("&8>> &7Dostales " + strings[0] + " &coinsow &7od administratora!"));
-            	p.sendMessage(ChatUtil.fixColor("&8>> &7Dales graczowi &c" + strings[1] + " &c" + strings[0] + " &7coinsow!"));
-            	return false;
-            }
-            
-        }
         return false;
     }
 }

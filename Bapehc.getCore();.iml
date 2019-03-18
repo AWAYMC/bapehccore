@@ -19,9 +19,6 @@
     <orderEntry type="library" name="PermissionsEx-1.23.4" level="project" />
     <orderEntry type="library" name="TitleAPI-1.7.7" level="project" />
     <orderEntry type="library" name="Vault" level="project" />
-    <orderEntry type="library" name="mc" level="project" />
-    <orderEntry type="library" name="spigot-1.8.8-R0.1-SNAPSHOT-latest" level="project" />
-    <orderEntry type="library" name="spigot-1.8.8-R0.1-SNAPSHOT-latest1" level="project" />
-    <orderEntry type="library" name="TitleAPI-1.7.71" level="project" />
+    <orderEntry type="library" name="SpigotAPI_1.8.8" level="project" />
   </component>
 </module>

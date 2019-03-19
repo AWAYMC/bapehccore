@@ -21,7 +21,7 @@ public class InventoryClickListener implements Listener{
 	@EventHandler
     public void onClick(InventoryClickEvent event) {
         Player p = (Player)event.getWhoClicked();
-        if ((ChatUtil.fixColor("&cWybierz tryb")).equalsIgnoreCase(event.getInventory().getName())) {
+        if ((ChatUtil.fixColor("&cMENU &8| &7TRYBOW")).equalsIgnoreCase(event.getInventory().getName())) {
             event.setCancelled(true);
             if (event.getSlot() == 0) {
             	p.closeInventory();

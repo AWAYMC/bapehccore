@@ -1,4 +1,4 @@
-package net.arehard.core.config;
+package net.arehard.core.yaml;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,8 +15,6 @@ public class Config
     public static String title;
     public static String validMsg;
     public static int iloscSubskrybcji;
-	public static String coins;
-	public static String loadAll;
     
     public static void loadMessages() {
         final JavaPlugin plugin = Main.getProvidingPlugin(Main.class);
@@ -33,22 +31,5 @@ public class Config
         Config.title = config.getString("videoTitle");
         Config.validMsg = config.getString("validMsg");
         Config.iloscSubskrybcji = config.getInt("minSubs");
-        Config.coins = config.getString("coins");
-        Config.loadAll = config.getString("loadAll");
     }
-
-	public static void registerConfig(String string, String string2, Main main) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public static void loadAll() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public static Object getConfig(String string) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

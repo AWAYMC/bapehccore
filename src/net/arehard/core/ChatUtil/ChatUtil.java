@@ -56,7 +56,10 @@ public class ChatUtil {
 			p.stream().forEach(cp -> sendActionBar(cp, m));
 			return false;
 		}
-
+		public static void vanish(Player player, Boolean b, String string) {
+			// TODO Auto-generated method stub
+			
+		}
 		public static void giveItems(final Player p, final ItemStack... items) {
 	        final Inventory i = (Inventory)p.getInventory();
 	        final HashMap<Integer, ItemStack> notStored = (HashMap<Integer, ItemStack>)i.addItem(items);
@@ -64,5 +67,15 @@ public class ChatUtil {
 	            p.getWorld().dropItemNaturally(p.getLocation(), (ItemStack)e.getValue());
 	    }
 	}
+
+		public static String sendMsg(String string) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public static String translate(String replace) {
+			// TODO Auto-generated method stub
+			return null;
+		}
 }
 

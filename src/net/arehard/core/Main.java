@@ -1,20 +1,16 @@
 package net.arehard.core;
 
+import java.io.File;
+
+import net.arehard.core.cmds.*;
+import net.arehard.core.task.AutoMessage;
+import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.WorldType;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.arehard.core.cmds.ACoinsCommands;
-import net.arehard.core.cmds.AlertCommands;
-import net.arehard.core.cmds.BanCommands;
-import net.arehard.core.cmds.ChatCommands;
-import net.arehard.core.cmds.CoinsCommands;
-import net.arehard.core.cmds.FlyCommands;
-import net.arehard.core.cmds.GamemodeCommands;
-import net.arehard.core.cmds.ISCommands;
-import net.arehard.core.cmds.KickCommands;
-import net.arehard.core.cmds.SpawnCommands;
 import net.arehard.core.config.Config;
 import net.arehard.core.listeners.AsyncPlayerChatListener;
 import net.arehard.core.listeners.FoodLevelChangeListener;
@@ -23,16 +19,24 @@ import net.arehard.core.listeners.PlayerCommandListener;
 import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
+<<<<<<< HEAD
 import net.arehard.core.listeners.WaterPlaceListener;
 import net.arehard.core.taks.AutoMessageTask;
 import net.arehard.core.taks.AutoMessageTask;
 import net.arehard.core.listeners.WaterPlaceListener;
 
+=======
+import net.arehard.core.listeners.VanishListener;
+import net.arehard.core.listeners.WaterPlaceListener;
+import net.arehard.core.task.DeleteTask;
+import net.arehard.core.yaml.Reklamy;
+>>>>>>> 2ac54b73ab0fc1c2855ee1c26bea7a0fcccd8626
 
 
 public class Main extends JavaPlugin {
 
     private static Main inst;
+    private static JavaPlugin pl;
     
     World world;
 
@@ -40,7 +44,7 @@ public class Main extends JavaPlugin {
         registerCommands();
         registerListener();
         registerFiles();
-        registerTaks();
+        registerTask();
         getLogger().info("");
         getLogger().info("----( AreHardOnEnable )----");
         getLogger().info("» Licencja Zaakceptowana...");
@@ -56,6 +60,15 @@ public class Main extends JavaPlugin {
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
         createWorld();
+        Config.loadMessages();
+        Main.pl = this;
+        final File configFile = new File(this.getDataFolder(), "config.yml");
+        if (!configFile.exists()) {
+            this.saveDefaultConfig();
+    }
+        Reklamy.loadReklamy();
+        Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new DeleteTask(), 0L, 100L);
+   
     }
 
 
@@ -67,9 +80,8 @@ public class Main extends JavaPlugin {
     }
 
 
-	private void registerTaks() {
-    	new AutoMessageTask(this);
-		
+	private void registerTask() {
+		new AutoMessage(this);
 	}
 
 
@@ -93,6 +105,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerCommandListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
         getServer().getPluginManager().registerEvents(new WaterPlaceListener(), this);
+        getServer().getPluginManager().registerEvents(new VanishListener(), this);
     }
 
     private void registerCommands() {
@@ -112,6 +125,8 @@ public class Main extends JavaPlugin {
         getCommand("ban").setExecutor(new BanCommands());
         getCommand("setspawn").setExecutor(new SpawnCommands());
         getCommand("spawn").setExecutor(new SpawnCommands());
+        getCommand("vanish").setExecutor(new VanishCommand());
+        getCommand("yt").setExecutor(new YouTubeCommand());
     }
 
     public void onDisable() {
@@ -135,5 +150,7 @@ public class Main extends JavaPlugin {
     public static Main getInst() {
         return Main.inst;
     }
-
-}
+    public static JavaPlugin getPlugin1() {
+        return Main.pl;
+    }
+    }

@@ -7,18 +7,12 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class ChatManager {
 
-    private static boolean enabled;
-    private static Map<Player, Long> chatTimerMap = new ConcurrentHashMap<>();
+    private  static boolean enabled;
+    private static Map<Player, Long> ChatTimerMap = new ConcurrentHashMap<>();
 
-    public static void setEnabled(boolean enabled) {
-        ChatManager.enabled = enabled;
-    }
+    public static void setEnabled(boolean enabled){ChatManager.enabled = enabled;}
 
-    public static boolean isEnabled() {
-        return enabled;
-    }
+    public static boolean isEnabled(){return enabled;}
 
-    public static Map<Player, Long> getChatTimerMap() {
-        return chatTimerMap;
-    }
+    public static Map<Player,Long> getChatTimeMap(){return ChatTimerMap;}
 }

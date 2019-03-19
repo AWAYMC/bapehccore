@@ -1,6 +1,6 @@
 package net.arehard.core.managers;
 
-import net.arehard.core.config.*;
+import net.arehard.core.config.Config;
 
 public class CoinsManager
 {

@@ -30,22 +30,22 @@ public class PlayerJoinListener implements Listener{
         
         final ItemStack sword = new ItemStack(Material.COMPASS);
         final ItemMeta swordMeta = sword.getItemMeta();
-        swordMeta.setDisplayName(ChatUtil.fixColor("&cTRYBY"));
+        swordMeta.setDisplayName(ChatUtil.fixColor("&cMENU &8| &7TRYBOW"));
         sword.setItemMeta(swordMeta);
         
         final ItemStack sword1 = new ItemStack(Material.BOOK);
         final ItemMeta sword1Meta = sword1.getItemMeta();
-        sword1Meta.setDisplayName(ChatUtil.fixColor("&cADMINISTRACJA"));
+        sword1Meta.setDisplayName(ChatUtil.fixColor("&cAdmininstracja"));
         sword1.setItemMeta(sword1Meta);
         
         final ItemStack sword2 = new ItemStack(Material.FEATHER);
         final ItemMeta sword2Meta = sword2.getItemMeta();
-        sword2Meta.setDisplayName(ChatUtil.fixColor("&cFLY NA LOBBY"));
+        sword2Meta.setDisplayName(ChatUtil.fixColor("&cFly na lobby"));
         sword2.setItemMeta(sword2Meta);
         
         final ItemStack glass = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)15);
         final ItemMeta glassMeta = glass.getItemMeta();
-        glassMeta.setDisplayName(ChatUtil.fixColor(""));
+        glassMeta.setDisplayName(ChatUtil.fixColor("&4Are&cHard"));
         glass.setItemMeta(glassMeta);
         
         p.getInventory().setItem(0, sword1);

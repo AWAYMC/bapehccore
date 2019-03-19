@@ -19,10 +19,18 @@ import net.arehard.core.listeners.PlayerCommandListener;
 import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
+<<<<<<< HEAD
+import net.arehard.core.listeners.WaterPlaceListener;
+import net.arehard.core.taks.AutoMessageTask;
+import net.arehard.core.taks.AutoMessageTask;
+import net.arehard.core.listeners.WaterPlaceListener;
+
+=======
 import net.arehard.core.listeners.VanishListener;
 import net.arehard.core.listeners.WaterPlaceListener;
 import net.arehard.core.task.DeleteTask;
 import net.arehard.core.yaml.Reklamy;
+>>>>>>> 2ac54b73ab0fc1c2855ee1c26bea7a0fcccd8626
 
 
 public class Main extends JavaPlugin {

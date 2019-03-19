@@ -1,4 +1,4 @@
-package net.arehard.core.taks;
+package net.arehard.core.task;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;

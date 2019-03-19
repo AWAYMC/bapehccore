@@ -20,4 +20,5 @@ commands:
   spawn:
   vanish:
     aliases: [v]
+  yt:
  

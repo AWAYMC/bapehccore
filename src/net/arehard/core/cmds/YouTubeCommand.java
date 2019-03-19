@@ -12,8 +12,7 @@ import net.arehard.core.config.Config;
 import net.arehard.core.yaml.Reklamy;
 import net.arehard.core.yaml.Result;
 
-public class YouTubeCommand implements CommandExecutor
-{
+public class YouTubeCommand implements CommandExecutor {
     public boolean onCommand(final CommandSender commandSender, final Command command, final String s, final String[] strings) {
         if (!(commandSender instanceof Player)) {
             commandSender.sendMessage("Tylko gracze moga uzywac tej komendy!");

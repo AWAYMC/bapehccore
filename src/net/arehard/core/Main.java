@@ -19,18 +19,9 @@ import net.arehard.core.listeners.PlayerCommandListener;
 import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
-<<<<<<< HEAD
 import net.arehard.core.listeners.WaterPlaceListener;
-import net.arehard.core.taks.AutoMessageTask;
-import net.arehard.core.taks.AutoMessageTask;
-import net.arehard.core.listeners.WaterPlaceListener;
-
-=======
 import net.arehard.core.listeners.VanishListener;
-import net.arehard.core.listeners.WaterPlaceListener;
-import net.arehard.core.task.DeleteTask;
-import net.arehard.core.yaml.Reklamy;
->>>>>>> 2ac54b73ab0fc1c2855ee1c26bea7a0fcccd8626
+
 
 
 public class Main extends JavaPlugin {
@@ -60,16 +51,10 @@ public class Main extends JavaPlugin {
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
         createWorld();
-        Config.loadMessages();
-        Main.pl = this;
-        final File configFile = new File(this.getDataFolder(), "config.yml");
-        if (!configFile.exists()) {
-            this.saveDefaultConfig();
-    }
-        Reklamy.loadReklamy();
-        Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new DeleteTask(), 0L, 100L);
-   
-    }
+        
+        
+        }
+           
 
 
     public void createWorld(){
@@ -126,7 +111,6 @@ public class Main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new SpawnCommands());
         getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
-        getCommand("yt").setExecutor(new YouTubeCommand());
     }
 
     public void onDisable() {
@@ -139,6 +123,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnDisable )----");
         getLogger().info("");
+        Config.saveAll();
     }
     public static Main getPlugin() {
         if (Main.inst == null) {

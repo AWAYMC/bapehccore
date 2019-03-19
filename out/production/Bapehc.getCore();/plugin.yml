@@ -15,10 +15,12 @@ commands:
   ban:
   coins:
   acoins:
-  alert:
   setspawn:
   spawn:
   vanish:
     aliases: [v]
   yt:
+  pomoc:
+  sponsor:
+  vip:
  

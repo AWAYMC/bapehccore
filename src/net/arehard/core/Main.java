@@ -1,14 +1,10 @@
 package net.arehard.core;
 
-import java.io.File;
-
 import net.arehard.core.cmds.*;
 import net.arehard.core.task.AutoMessage;
-import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
 import org.bukkit.WorldType;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.arehard.core.config.Config;
@@ -20,14 +16,6 @@ import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 import net.arehard.core.listeners.WaterPlaceListener;
-<<<<<<< HEAD
-import net.arehard.core.task.DeleteTask;
-import net.arehard.core.yaml.Reklamy;
-=======
-import net.arehard.core.listeners.VanishListener;
-
->>>>>>> 03aa371765292efd413c0f13a2f6d90da118d597
-
 
 public class Main extends JavaPlugin {
 
@@ -115,12 +103,9 @@ public class Main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new SpawnCommands());
         getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
-<<<<<<< HEAD
         getCommand("pomoc").setExecutor(new PomocCommands());
         getCommand("vip").setExecutor(new VipCommands());
         getCommand("sponsor").setExecutor(new SponsorCommands());
-=======
->>>>>>> 03aa371765292efd413c0f13a2f6d90da118d597
     }
 
     public void onDisable() {

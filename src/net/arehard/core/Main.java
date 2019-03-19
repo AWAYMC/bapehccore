@@ -97,7 +97,6 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerCommandListener(), this);
         getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
         getServer().getPluginManager().registerEvents(new WaterPlaceListener(), this);
-        getServer().getPluginManager().registerEvents(new VanishListener(), this);
     }
 
     private void registerCommands() {

@@ -117,6 +117,8 @@ public class Main extends JavaPlugin {
         getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
         getCommand("pomoc").setExecutor(new PomocCommands());
+        getCommand("vip").setExecutor(new VipCommands());
+        getCommand("sponsor").setExecutor(new SponsorCommands());
     }
 
     public void onDisable() {

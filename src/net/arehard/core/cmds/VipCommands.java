@@ -1,5 +1,6 @@
 package net.arehard.core.cmds;
 
+<<<<<<< HEAD
 import net.arehard.core.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -31,4 +32,16 @@ public class VipCommands implements CommandExecutor {
         }
         return false;
     }
+=======
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+public class VipCommands implements CommandExecutor {
+
+	@Override
+	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
+		return false;
+	}
+>>>>>>> 03aa371765292efd413c0f13a2f6d90da118d597
 }

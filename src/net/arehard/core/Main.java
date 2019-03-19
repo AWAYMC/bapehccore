@@ -20,8 +20,13 @@ import net.arehard.core.listeners.PlayerDeathListener;
 import net.arehard.core.listeners.PlayerInteractListener;
 import net.arehard.core.listeners.PlayerJoinListener;
 import net.arehard.core.listeners.WaterPlaceListener;
+<<<<<<< HEAD
 import net.arehard.core.task.DeleteTask;
 import net.arehard.core.yaml.Reklamy;
+=======
+import net.arehard.core.listeners.VanishListener;
+
+>>>>>>> 03aa371765292efd413c0f13a2f6d90da118d597
 
 
 public class Main extends JavaPlugin {
@@ -51,16 +56,10 @@ public class Main extends JavaPlugin {
         Config.registerConfig("coins", "coins.yml", this);
         Config.loadAll();
         createWorld();
-        Config.loadMessages();
-        Main.pl = this;
-        final File configFile = new File(this.getDataFolder(), "config.yml");
-        if (!configFile.exists()) {
-            this.saveDefaultConfig();
-    }
-        Reklamy.loadReklamy();
-        Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new DeleteTask(), 0L, 100L);
-   
-    }
+        
+        
+        }
+           
 
 
     public void createWorld(){
@@ -116,9 +115,12 @@ public class Main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new SpawnCommands());
         getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
+<<<<<<< HEAD
         getCommand("pomoc").setExecutor(new PomocCommands());
         getCommand("vip").setExecutor(new VipCommands());
         getCommand("sponsor").setExecutor(new SponsorCommands());
+=======
+>>>>>>> 03aa371765292efd413c0f13a2f6d90da118d597
     }
 
     public void onDisable() {
@@ -131,6 +133,7 @@ public class Main extends JavaPlugin {
         getLogger().info("» Proxy: 0.3");
         getLogger().info("----( AreHardOnDisable )----");
         getLogger().info("");
+        Config.saveAll();
     }
     public static Main getPlugin() {
         if (Main.inst == null) {

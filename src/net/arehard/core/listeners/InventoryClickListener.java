@@ -88,7 +88,40 @@ public class InventoryClickListener implements Listener{
             } 
             if (event.getSlot() == 9) {
             	event.setCancelled(true);
-            } 
+            }
+        }
+        if ((ChatUtil.fixColor("&7MENU &8| &7DROPU")).equalsIgnoreCase(event.getInventory().getName())) {
+            event.setCancelled(true);
+            if (event.getSlot() == 0) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 1) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 2) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 3) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 4) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 5) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 6) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 7) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 8) {
+                event.setCancelled(true);
+            }
+            if (event.getSlot() == 9) {
+                event.setCancelled(true);
+            }
         }
     }
 }

@@ -100,8 +100,6 @@ public class Main extends JavaPlugin {
         getCommand("acoins").setExecutor(new ACoinsCommands());
         getCommand("kick").setExecutor(new KickCommands());
         getCommand("ban").setExecutor(new BanCommands());
-        getCommand("setspawn").setExecutor(new SpawnCommands());
-        getCommand("spawn").setExecutor(new SpawnCommands());
         getCommand("vanish").setExecutor(new VanishCommand());
         getCommand("pomoc").setExecutor(new PomocCommands());
         getCommand("vip").setExecutor(new VipCommands());
